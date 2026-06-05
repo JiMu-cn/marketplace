@@ -1,0 +1,13 @@
+{
+  "digitalocean-digitalocean-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@digitalocean/mcp"
+    ],
+    "env": {
+      "DIGITALOCEAN_API_TOKEN": "${DIGITALOCEAN_API_TOKEN}"
+    }
+  }
+}

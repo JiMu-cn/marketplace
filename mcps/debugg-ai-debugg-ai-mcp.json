@@ -1,0 +1,19 @@
+{
+  "debugg-ai-debugg-ai-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@debugg-ai/debugg-ai-mcp"
+    ],
+    "env": {
+      "DEBUGGAI_API_KEY": "${DEBUGGAI_API_KEY}",
+      "TEST_USERNAME_EMAIL": "${TEST_USERNAME_EMAIL}",
+      "TEST_USER_PASSWORD": "${TEST_USER_PASSWORD}",
+      "DEBUGGAI_LOCAL_REPO_NAME": "${DEBUGGAI_LOCAL_REPO_NAME}",
+      "DEBUGGAI_LOCAL_BRANCH_NAME": "${DEBUGGAI_LOCAL_BRANCH_NAME}",
+      "DEBUGGAI_LOCAL_REPO_PATH": "${DEBUGGAI_LOCAL_REPO_PATH}",
+      "DEBUGGAI_LOCAL_FILE_PATH": "${DEBUGGAI_LOCAL_FILE_PATH}"
+    }
+  }
+}

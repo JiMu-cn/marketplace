@@ -1,0 +1,15 @@
+{
+  "mcp-server-esa": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-server-esa"
+    ],
+    "env": {
+      "ALIBABA_CLOUD_ACCESS_KEY_ID": "your AK",
+      "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "your SK",
+      "ALIBABA_CLOUD_SECURITY_TOKEN": "sts_security_token optional, required when using STS Token (By default, no need to pass)"
+    }
+  }
+}

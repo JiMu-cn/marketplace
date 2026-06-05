@@ -1,0 +1,13 @@
+{
+  "chanmeng666-server-google-news": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@chanmeng666/google-news-server"
+    ],
+    "env": {
+      "SERP_API_KEY": "${SERP_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "modelscope-modelscope-mcp-server": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "modelscope-mcp-server"
+    ],
+    "env": {}
+  }
+}

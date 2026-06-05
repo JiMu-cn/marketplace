@@ -1,0 +1,14 @@
+{
+  "pubnub-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@pubnub/mcp"
+    ],
+    "env": {
+      "PUBNUB_PUBLISH_KEY": "YOUR_PUBLISH_KEY",
+      "PUBNUB_SUBSCRIBE_KEY": "YOUR_SUBSCRIBE_KEY"
+    }
+  }
+}

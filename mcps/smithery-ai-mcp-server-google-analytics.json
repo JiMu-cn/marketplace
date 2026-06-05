@@ -1,0 +1,15 @@
+{
+  "smithery-ai-mcp-server-google-analytics": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@toolsdk.ai/mcp-server-google-analytics"
+    ],
+    "env": {
+      "GOOGLE_CLIENT_EMAIL": "${GOOGLE_CLIENT_EMAIL}",
+      "GOOGLE_PRIVATE_KEY": "${GOOGLE_PRIVATE_KEY}",
+      "GA_PROPERTY_ID": "${GA_PROPERTY_ID}"
+    }
+  }
+}

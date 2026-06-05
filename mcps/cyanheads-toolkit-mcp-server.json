@@ -1,0 +1,13 @@
+{
+  "cyanheads-toolkit-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@cyanheads/toolkit-mcp-server"
+    ],
+    "env": {
+      "NODE_ENV": "${NODE_ENV}"
+    }
+  }
+}

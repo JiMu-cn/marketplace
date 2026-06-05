@@ -1,0 +1,13 @@
+{
+  "jpisnice-shadcn-ui-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@jpisnice/shadcn-ui-mcp-server"
+    ],
+    "env": {
+      "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+    }
+  }
+}

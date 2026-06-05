@@ -1,0 +1,11 @@
+{
+  "floriscornel-teams-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@floriscornel/teams-mcp"
+    ],
+    "env": {}
+  }
+}

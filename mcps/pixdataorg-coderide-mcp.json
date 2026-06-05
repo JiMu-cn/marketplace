@@ -1,0 +1,13 @@
+{
+  "pixdataorg-coderide-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@coderide/mcp"
+    ],
+    "env": {
+      "CODERIDE_API_KEY": "${CODERIDE_API_KEY}"
+    }
+  }
+}

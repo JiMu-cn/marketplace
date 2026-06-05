@@ -1,0 +1,15 @@
+{
+  "kailashappdev-figma-mcp-toolkit": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kailashg101/mcp-figma-to-code"
+    ],
+    "env": {
+      "FIGMA_TOKEN": "${FIGMA_TOKEN}",
+      "FIGMA_FILE": "${FIGMA_FILE}",
+      "PROJECT_DIR": "${PROJECT_DIR}"
+    }
+  }
+}

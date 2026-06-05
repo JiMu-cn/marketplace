@@ -1,0 +1,15 @@
+{
+  "isaacphi-mcp-gdrive": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@isaacphi/mcp-gdrive"
+    ],
+    "env": {
+      "CLIENT_ID": "${CLIENT_ID}",
+      "CLIENT_SECRET": "${CLIENT_SECRET}",
+      "GDRIVE_CREDS_DIR": "${GDRIVE_CREDS_DIR}"
+    }
+  }
+}

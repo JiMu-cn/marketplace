@@ -1,0 +1,14 @@
+{
+  "eilgnaw-harmonyos-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "harmonyos-mcp"
+    ],
+    "env": {
+      "DEVECO_STUDIO_HOME": "${DEVECO_STUDIO_HOME}",
+      "DEVECO_SDK_HOME": "${DEVECO_SDK_HOME}"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "xgenerationlab-xhs-mcp-server": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "xhs_mcp_server"
+    ],
+    "env": {}
+  }
+}

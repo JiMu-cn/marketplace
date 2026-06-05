@@ -1,0 +1,10 @@
+{
+  "chroma-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "chroma-mcp"
+    ],
+    "env": {}
+  }
+}

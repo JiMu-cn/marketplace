@@ -1,0 +1,16 @@
+{
+  "growthbook-growthbook-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@growthbook/mcp"
+    ],
+    "env": {
+      "GB_API_KEY": "${GB_API_KEY}",
+      "GB_API_URL": "${GB_API_URL}",
+      "GB_APP_ORIGIN": "${GB_APP_ORIGIN}",
+      "GB_USER": "${GB_USER}"
+    }
+  }
+}

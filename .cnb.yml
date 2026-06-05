@@ -1,0 +1,21 @@
+main:
+  pull_request:
+    - runner:
+        tags: cnb:arch:amd64
+      stages:
+        - name: build and validate
+          image: node:20
+          script: |
+            node --version
+            ALLOW_SOURCE_DIRTY=1 node scripts/build-all.js
+            node scripts/validate-registry.js
+
+  push:
+    - runner:
+        tags: cnb:arch:amd64
+      stages:
+        - name: validate registries
+          image: node:20
+          script: |
+            node --version
+            node scripts/validate-registry.js

@@ -1,0 +1,14 @@
+{
+  "aliyun-wuying-agentbay-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "wuying-agentbay-mcp-server"
+    ],
+    "env": {
+      "APIKEY": "${APIKEY}",
+      "IMAGEID": "${IMAGEID}"
+    }
+  }
+}

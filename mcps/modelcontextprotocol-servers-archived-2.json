@@ -1,0 +1,15 @@
+{
+  "modelcontextprotocol-servers-archived-2": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@modelcontextprotocol/server-slack"
+    ],
+    "env": {
+      "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN}",
+      "SLACK_TEAM_ID": "${SLACK_TEAM_ID}",
+      "SLACK_CHANNEL_IDS": "${SLACK_CHANNEL_IDS}"
+    }
+  }
+}

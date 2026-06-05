@@ -1,0 +1,17 @@
+{
+  "easy-mcps-oceanbase-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@easy-mcps/oceanbase-mcp-server"
+    ],
+    "env": {
+      "OCEANBASE_HOST": "${OCEANBASE_HOST}",
+      "OCEANBASE_PORT": "${OCEANBASE_PORT}",
+      "OCEANBASE_USER": "${OCEANBASE_USER}",
+      "OCEANBASE_PASSWORD": "${OCEANBASE_PASSWORD}",
+      "OCEANBASE_DATABASE": "${OCEANBASE_DATABASE}"
+    }
+  }
+}

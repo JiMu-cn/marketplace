@@ -1,0 +1,17 @@
+{
+  "kevinwatt-mysql-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kevinwatt/mysql-mcp"
+    ],
+    "env": {
+      "MYSQL_HOST": "${MYSQL_HOST}",
+      "MYSQL_PORT": "${MYSQL_PORT}",
+      "MYSQL_USER": "${MYSQL_USER}",
+      "MYSQL_PASS": "${MYSQL_PASS}",
+      "MYSQL_DB": "${MYSQL_DB}"
+    }
+  }
+}

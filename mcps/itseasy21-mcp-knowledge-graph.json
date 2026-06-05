@@ -1,0 +1,13 @@
+{
+  "itseasy21-mcp-knowledge-graph": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@itseasy21/mcp-knowledge-graph"
+    ],
+    "env": {
+      "MEMORY_FILE_PATH": "${MEMORY_FILE_PATH}"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "qwang007-wecom-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@qwang007/wecom-mcp"
+    ],
+    "env": {
+      "WECOM_CORP_ID": "${WECOM_CORP_ID}",
+      "WECOM_CORP_SECRET": "${WECOM_CORP_SECRET}",
+      "WECOM_ADMIN_USERID": "${WECOM_ADMIN_USERID}"
+    }
+  }
+}

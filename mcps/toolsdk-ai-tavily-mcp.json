@@ -1,0 +1,13 @@
+{
+  "toolsdk-ai-tavily-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@toolsdk.ai/tavily-mcp"
+    ],
+    "env": {
+      "TAVILY_API_KEY": "your-tavily-api-key"
+    }
+  }
+}

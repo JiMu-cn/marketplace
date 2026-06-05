@@ -1,0 +1,14 @@
+{
+  "felixallistar-coolify-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@felixallistar/coolify-mcp"
+    ],
+    "env": {
+      "COOLIFY_API_URL": "${COOLIFY_API_URL}",
+      "COOLIFY_API_TOKEN": "${COOLIFY_API_TOKEN}"
+    }
+  }
+}

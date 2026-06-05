@@ -1,0 +1,10 @@
+{
+  "rockcj-docx-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "docx_mcp"
+    ],
+    "env": {}
+  }
+}

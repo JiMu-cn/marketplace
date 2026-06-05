@@ -1,0 +1,11 @@
+{
+  "larksuite-lark-openapi-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@larksuiteoapi/lark-mcp"
+    ],
+    "env": {}
+  }
+}

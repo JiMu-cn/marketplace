@@ -1,0 +1,15 @@
+{
+  "alibabacloud-direct-mail-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "alibabacloud-direct-mail-mcp"
+    ],
+    "env": {
+      "ALIBABA_CLOUD_ACCESS_KEY_ID": "${ALIBABA_CLOUD_ACCESS_KEY_ID}",
+      "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "${ALIBABA_CLOUD_ACCESS_KEY_SECRET}",
+      "ALIYUN_DM_REGION_ID": "${ALIYUN_DM_REGION_ID}"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "edgeone-pages-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "edgeone-pages-mcp"
+    ],
+    "env": {}
+  }
+}

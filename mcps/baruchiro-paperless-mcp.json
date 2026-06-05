@@ -1,0 +1,14 @@
+{
+  "baruchiro-paperless-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@baruchiro/paperless-mcp"
+    ],
+    "env": {
+      "PAPERLESS_URL": "${PAPERLESS_URL}",
+      "PAPERLESS_API_KEY": "${PAPERLESS_API_KEY}"
+    }
+  }
+}

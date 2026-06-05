@@ -1,0 +1,15 @@
+{
+  "aliyun-alibabacloud-dataworks-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "alibabacloud-dataworks-mcp-server"
+    ],
+    "env": {
+      "ALIBABA_CLOUD_ACCESS_KEY_ID": "${ALIBABA_CLOUD_ACCESS_KEY_ID}",
+      "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "${ALIBABA_CLOUD_ACCESS_KEY_SECRET}",
+      "REGION": "${REGION}"
+    }
+  }
+}

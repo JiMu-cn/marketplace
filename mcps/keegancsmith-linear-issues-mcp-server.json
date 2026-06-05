@@ -1,0 +1,13 @@
+{
+  "keegancsmith-linear-issues-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@keegancsmith/linear-issues-mcp-server"
+    ],
+    "env": {
+      "LINEAR_API_TOKEN": "${LINEAR_API_TOKEN}"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "antv-mcp-server-chart": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@antv/mcp-server-chart"
+    ],
+    "env": {
+      "VIS_REQUEST_SERVER": "<YOUR_VIS_REQUEST_SERVER>"
+    }
+  }
+}

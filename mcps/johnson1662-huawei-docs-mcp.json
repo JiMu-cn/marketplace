@@ -1,0 +1,11 @@
+{
+  "johnson1662-huawei-docs-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "huawei-docs-mcp"
+    ],
+    "env": {}
+  }
+}

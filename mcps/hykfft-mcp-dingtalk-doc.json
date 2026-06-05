@@ -1,0 +1,13 @@
+{
+  "hykfft-mcp-dingtalk-doc": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "mcp-dingtalk-doc"
+    ],
+    "env": {
+      "DINGTALK_COOKIE": "${DINGTALK_COOKIE}"
+    }
+  }
+}

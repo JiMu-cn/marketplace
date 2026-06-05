@@ -1,0 +1,10 @@
+{
+  "eis4ty-china-festival-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "china-festival-mcp"
+    ],
+    "env": {}
+  }
+}

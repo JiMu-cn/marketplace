@@ -1,0 +1,8 @@
+{
+  "name": "ai-ppt-skill",
+  "version": "1.3.0",
+  "description": "AI PPT 智能演示文稿工具 - 基于专家工作流方法论",
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  }
+}

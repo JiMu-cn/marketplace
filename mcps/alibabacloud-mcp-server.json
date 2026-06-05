@@ -1,0 +1,10 @@
+{
+  "alibabacloud-mcp-server": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "alibabacloud-mcp-server"
+    ],
+    "env": {}
+  }
+}

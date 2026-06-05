@@ -1,0 +1,12 @@
+{
+  "postgres-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "postgres-mcp"
+    ],
+    "env": {
+      "DATABASE_URI": "postgresql://username:password@localhost:5432/dbname"
+    }
+  }
+}

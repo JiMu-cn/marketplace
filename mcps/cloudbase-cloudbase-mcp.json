@@ -1,0 +1,11 @@
+{
+  "cloudbase-cloudbase-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@cloudbase/cloudbase-mcp"
+    ],
+    "env": {}
+  }
+}

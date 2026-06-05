@@ -1,0 +1,11 @@
+{
+  "framex-framex-feishu": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "framex-feishu"
+    ],
+    "env": {}
+  }
+}

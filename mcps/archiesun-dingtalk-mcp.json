@@ -1,0 +1,11 @@
+{
+  "archiesun-dingtalk-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@archiesun/dingtalk-mcp-calendar"
+    ],
+    "env": {}
+  }
+}

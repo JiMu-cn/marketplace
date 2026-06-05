@@ -1,0 +1,15 @@
+{
+  "inkdropapp-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@inkdropapp/mcp-server"
+    ],
+    "env": {
+      "INKDROP_LOCAL_SERVER_URL": "${INKDROP_LOCAL_SERVER_URL}",
+      "INKDROP_LOCAL_USERNAME": "${INKDROP_LOCAL_USERNAME}",
+      "INKDROP_LOCAL_PASSWORD": "${INKDROP_LOCAL_PASSWORD}"
+    }
+  }
+}

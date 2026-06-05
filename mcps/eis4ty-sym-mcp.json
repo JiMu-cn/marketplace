@@ -1,0 +1,10 @@
+{
+  "eis4ty-sym-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "sym-mcp"
+    ],
+    "env": {}
+  }
+}

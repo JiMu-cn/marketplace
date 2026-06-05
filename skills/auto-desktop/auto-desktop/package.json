@@ -1,0 +1,30 @@
+{
+  "name": "@jumu/auto-desktop",
+  "version": "1.0.0",
+  "description": "Auto Desktop Skill with breathing edge light effect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Testing auto-desktop skill\"",
+    "demo": "node demo.js"
+  },
+  "keywords": [
+    "automation",
+    "desktop",
+    "gui",
+    "breathing-light",
+    "visual-feedback"
+  ],
+  "author": "JUMU",
+  "license": "MIT",
+  "dependencies": {},
+  "jumu": {
+    "skill": {
+      "type": "desktop-automation",
+      "capabilities": [
+        "window-management",
+        "visual-indication",
+        "gui-automation-preparation"
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "discord-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "discord-mcp"
+    ],
+    "env": {
+      "NODE_ENV": "eg: production",
+      "DISCORD_BOT_TOKEN": "Your Discord bot token"
+    }
+  }
+}

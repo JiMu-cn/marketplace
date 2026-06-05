@@ -1,0 +1,11 @@
+{
+  "antvis-mcp-server-antv": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@antv/mcp-server-antv"
+    ],
+    "env": {}
+  }
+}

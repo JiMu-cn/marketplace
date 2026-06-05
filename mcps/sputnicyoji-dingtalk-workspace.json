@@ -1,0 +1,11 @@
+{
+  "sputnicyoji-dingtalk-workspace": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@sputnicyoji/dingtalk-workspace-mcp"
+    ],
+    "env": {}
+  }
+}

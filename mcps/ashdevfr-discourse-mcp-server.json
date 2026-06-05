@@ -1,0 +1,15 @@
+{
+  "ashdevfr-discourse-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@ashdev/discourse-mcp-server"
+    ],
+    "env": {
+      "DISCOURSE_API_URL": "${DISCOURSE_API_URL}",
+      "DISCOURSE_API_KEY": "${DISCOURSE_API_KEY}",
+      "DISCOURSE_API_USERNAME": "${DISCOURSE_API_USERNAME}"
+    }
+  }
+}

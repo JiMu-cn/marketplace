@@ -1,0 +1,13 @@
+{
+  "kevinwatt-mcp-webhook": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kevinwatt/mcp-webhook"
+    ],
+    "env": {
+      "WEBHOOK_URL": "${WEBHOOK_URL}"
+    }
+  }
+}

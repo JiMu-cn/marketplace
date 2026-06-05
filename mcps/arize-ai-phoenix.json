@@ -1,0 +1,14 @@
+{
+  "arize-ai-phoenix": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@arizeai/phoenix-mcp"
+    ],
+    "env": {
+      "PHOENIX_API_KEY": "${PHOENIX_API_KEY}",
+      "PHOENIX_BASE_URL": "${PHOENIX_BASE_URL}"
+    }
+  }
+}

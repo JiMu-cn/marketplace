@@ -1,0 +1,10 @@
+{
+  "mailzwj-modelscope-image-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "modelscope-image-mcp"
+    ],
+    "env": {}
+  }
+}

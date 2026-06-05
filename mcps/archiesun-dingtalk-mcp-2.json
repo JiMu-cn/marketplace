@@ -1,0 +1,11 @@
+{
+  "archiesun-dingtalk-mcp-2": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@archiesun/dingtalk-mcp-data-table"
+    ],
+    "env": {}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "baidu-maps-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@baidumap/mcp-server-baidu-map"
+    ],
+    "env": {
+      "BAIDU_MAP_API_KEY": "${BAIDU_MAP_API_KEY}"
+    }
+  }
+}

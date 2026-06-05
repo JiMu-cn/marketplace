@@ -1,0 +1,16 @@
+{
+  "hiyorineko-mcp-rollbar-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@hiyorineko/mcp-rollbar-server"
+    ],
+    "env": {
+      "ROLLBAR_PROJECT_TOKEN": "${ROLLBAR_PROJECT_TOKEN}",
+      "ROLLBAR_ACCOUNT_TOKEN": "${ROLLBAR_ACCOUNT_TOKEN}",
+      "ROLLBAR_PROJECT_ID": "${ROLLBAR_PROJECT_ID}",
+      "ROLLBAR_PROJECT_NAME": "${ROLLBAR_PROJECT_NAME}"
+    }
+  }
+}

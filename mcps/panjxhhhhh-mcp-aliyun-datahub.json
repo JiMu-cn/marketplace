@@ -1,0 +1,13 @@
+{
+  "panjxhhhhh-mcp-aliyun-datahub": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "mcp-aliyun-datahub"
+    ],
+    "env": {
+      "ALIBABA_CLOUD_ACCESS_KEY_ID": "${ALIBABA_CLOUD_ACCESS_KEY_ID}",
+      "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "${ALIBABA_CLOUD_ACCESS_KEY_SECRET}"
+    }
+  }
+}

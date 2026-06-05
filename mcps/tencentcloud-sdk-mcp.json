@@ -1,0 +1,15 @@
+{
+  "tencentcloud-sdk-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@tencentcloud/sdk-mcp"
+    ],
+    "env": {
+      "TENCENTCLOUD_SECRET_ID": "${TENCENTCLOUD_SECRET_ID}",
+      "TENCENTCLOUD_SECRET_KEY": "${TENCENTCLOUD_SECRET_KEY}",
+      "TENCENTCLOUD_REGION": "${TENCENTCLOUD_REGION}"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "suxyee-aliyun-sls-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "aliyun-sls-mcp"
+    ],
+    "env": {
+      "ALIBABA_CLOUD_ACCESS_KEY_ID": "${ALIBABA_CLOUD_ACCESS_KEY_ID}",
+      "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "${ALIBABA_CLOUD_ACCESS_KEY_SECRET}",
+      "SLS_REGIONS": "${SLS_REGIONS}"
+    }
+  }
+}

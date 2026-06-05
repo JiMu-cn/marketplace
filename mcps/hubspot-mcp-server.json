@@ -1,0 +1,13 @@
+{
+  "hubspot-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@hubspot/mcp-server"
+    ],
+    "env": {
+      "PRIVATE_APP_ACCESS_TOKEN": "${PRIVATE_APP_ACCESS_TOKEN}"
+    }
+  }
+}

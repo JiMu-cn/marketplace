@@ -1,0 +1,13 @@
+{
+  "gongrzhe-travel-planner-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@gongrzhe/server-travelplanner-mcp"
+    ],
+    "env": {
+      "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}"
+    }
+  }
+}

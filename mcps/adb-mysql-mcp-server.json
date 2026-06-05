@@ -1,0 +1,16 @@
+{
+  "adb-mysql-mcp-server": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "adb-mysql-mcp-server"
+    ],
+    "env": {
+      "ADB_MYSQL_HOST": "host",
+      "ADB_MYSQL_PORT": "port",
+      "ADB_MYSQL_USER": "database_user",
+      "ADB_MYSQL_PASSWORD": "database_password",
+      "ADB_MYSQL_DATABASE": "database"
+    }
+  }
+}

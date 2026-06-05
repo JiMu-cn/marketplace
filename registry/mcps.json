@@ -1,0 +1,6499 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-05-27T10:05:40.194Z",
+  "total": 113,
+  "mcps": [
+    {
+      "id": "upstash-context7-mcp",
+      "path": "upstash-context7-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Context7 MCP",
+      "description": "Connects to Context7.com's documentation database to provide up-to-date library and framework documentation with intelligent project ranking and customizable token limits.",
+      "author": "upstash",
+      "icon": "https://github.com/upstash.png",
+      "homepage": "https://github.com/upstash/context7",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@upstash/context7-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 156,
+      "updated_at": "2026-05-27T06:54:39.069Z",
+      "category": "search",
+      "source_hash": "674f7dd0d5981ae52d9aba85b29f0e8b455d9edada1dabd02f9e9ddcfddd53a3"
+    },
+    {
+      "id": "awslabs-aws-documentation-mcp-server",
+      "path": "awslabs-aws-documentation-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "AWS Documentation MCP Server",
+      "description": "Provides tools to access AWS documentation, search for content, and get recommendations.",
+      "author": "awslabs",
+      "icon": "https://github.com/awslabs.png",
+      "homepage": "https://github.com/awslabs/mcp/tree/HEAD/src/aws-documentation-mcp-server",
+      "tags": [
+        "搜索检索",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "awslabs.aws-documentation-mcp-server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python",
+          "uvx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 175,
+      "updated_at": "2026-05-27T06:54:39.071Z",
+      "category": "search",
+      "source_hash": "719fffbd20f133d14ad9c3fbc0cb5076ffe8779a2bee9db9837e44f5a370de1c"
+    },
+    {
+      "id": "toolsdk-ai-tavily-mcp",
+      "path": "toolsdk-ai-tavily-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "ToolSDK-AI-Tavily",
+      "description": "An MCP server that implements web search, extract, mapping, and crawling through the Tavily API.",
+      "author": "tavily-ai",
+      "icon": "https://avatars.githubusercontent.com/u/170207473?v=4",
+      "homepage": "https://github.com/tavily-ai/tavily-mcp",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@toolsdk.ai/tavily-mcp"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "your-tavily-api-key"
+      },
+      "variables": [
+        {
+          "key": "TAVILY_API_KEY",
+          "label": "TAVILY_API_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 TAVILY_API_KEY(示例:your-tavily-api-key)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 209,
+      "updated_at": "2026-05-27T06:54:39.077Z",
+      "category": "search",
+      "source_hash": "d8a65a45aaad18ceedf13d7cce80a351aa1c85eef18725d36aaf78486b193990"
+    },
+    {
+      "id": "playwright-mcp",
+      "path": "playwright-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Playwright MCP",
+      "description": "A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.",
+      "author": "microsoft",
+      "icon": "https://github.com/microsoft.png",
+      "homepage": "https://github.com/microsoft/playwright-mcp",
+      "tags": [
+        "浏览器自动化",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 144,
+      "updated_at": "2026-05-27T06:54:39.106Z",
+      "category": "browser",
+      "source_hash": "44c4c0c490715c327ea4f1fc09e4d45484a2f731fc9d46276ef051c119145d23"
+    },
+    {
+      "id": "firecrawl-mcp",
+      "path": "firecrawl-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "FireCrawl MCP Server",
+      "description": "Integration with FireCrawl to provide advanced web scraping capabilities for extracting structured data from complex websites.",
+      "author": "mendableai",
+      "icon": "https://github.com/mendableai.png",
+      "homepage": "https://github.com/mendableai/firecrawl-mcp-server",
+      "tags": [
+        "浏览器自动化",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "firecrawl-mcp"
+      ],
+      "env": {
+        "FIRECRAWL_API_KEY": "YOUR-API-KEY"
+      },
+      "variables": [
+        {
+          "key": "FIRECRAWL_API_KEY",
+          "label": "FIRECRAWL_API_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 FIRECRAWL_API_KEY(示例:YOUR-API-KEY)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 188,
+      "updated_at": "2026-05-27T06:54:39.109Z",
+      "category": "browser",
+      "source_hash": "d034aa39839dad6b257099607bc2a7dc9db2813e69631ff0f5ea05dedf479724"
+    },
+    {
+      "id": "exa-mcp-server",
+      "path": "exa-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Exa AI Search",
+      "description": "A Model Context Protocol (MCP) server lets AI assistants like Claude use the Exa AI Search API for web searches. This setup allows AI models to get real-time web information in a safe and controlled way.",
+      "author": "exa-labs",
+      "icon": "https://github.com/exa-labs.png",
+      "homepage": "https://github.com/exa-labs/exa-mcp-server",
+      "tags": [
+        "AI增强",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "exa-mcp-server"
+      ],
+      "env": {
+        "EXA_API_KEY": "API KEY for Exa"
+      },
+      "variables": [
+        {
+          "key": "EXA_API_KEY",
+          "label": "EXA_API_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 EXA_API_KEY(示例:API KEY for Exa)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 187,
+      "updated_at": "2026-05-27T06:54:39.109Z",
+      "category": "ai",
+      "source_hash": "e90844de17d94be6d8f510c81d353832a38bbaed919d0395d89684889f6399d7"
+    },
+    {
+      "id": "shopify-dev-mcp",
+      "path": "shopify-dev-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Shopify Dev MCP",
+      "description": "Integrates with Shopify Dev. Supports various tools to interact with different Shopify APIs.",
+      "author": "shopify",
+      "icon": "https://github.com/shopify.png",
+      "homepage": "https://github.com/shopify/dev-mcp",
+      "tags": [
+        "开发工具",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@shopify/dev-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 146,
+      "updated_at": "2026-05-27T06:54:39.113Z",
+      "category": "dev_tools",
+      "source_hash": "06049e4456de46c470b0cb22aea8fbcd4da8d5d2671a60b2fb30bf1accbffec7"
+    },
+    {
+      "id": "e2b-mcp-server",
+      "path": "e2b-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "E2B MCP Server",
+      "description": "A Model Context Protocol server for running code in a secure sandbox by E2B.",
+      "author": "e2b-dev",
+      "icon": "https://github.com/e2b-dev.png",
+      "homepage": "https://github.com/e2b-dev/mcp-server/tree/HEAD/packages/js",
+      "tags": [
+        "AI增强",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@e2b/mcp-server"
+      ],
+      "env": {
+        "E2B_API_KEY": "API key for authenticating with the E2B service."
+      },
+      "variables": [
+        {
+          "key": "E2B_API_KEY",
+          "label": "E2B_API_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 E2B_API_KEY(示例:API key for authenticating with the E2B service.)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 221,
+      "updated_at": "2026-05-27T06:54:39.116Z",
+      "category": "ai",
+      "source_hash": "01ae0a41c6fa8bbddf884f5cc3e4e6d026ffd74f05165a8a9152270284bce75a"
+    },
+    {
+      "id": "browserstack-mcp-server",
+      "path": "browserstack-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Server",
+      "description": "Integrates with BrowserStack's testing infrastructure to enable automated and manual testing across browsers, devices, and platforms for debugging cross-browser issues and verifying mobile app functionality.",
+      "author": "browserstack",
+      "icon": "https://github.com/browserstack.png",
+      "homepage": "https://github.com/browserstack/mcp-server",
+      "tags": [
+        "浏览器自动化",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@browserstack/mcp-server"
+      ],
+      "env": {
+        "BROWSERSTACK_USERNAME": "<username>",
+        "BROWSERSTACK_ACCESS_KEY": "<access_key>"
+      },
+      "variables": [
+        {
+          "key": "BROWSERSTACK_USERNAME",
+          "label": "BROWSERSTACK_USERNAME",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 BROWSERSTACK_USERNAME(示例:<username>)"
+        },
+        {
+          "key": "BROWSERSTACK_ACCESS_KEY",
+          "label": "BROWSERSTACK_ACCESS_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 BROWSERSTACK_ACCESS_KEY(示例:<access_key>)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 260,
+      "updated_at": "2026-05-27T06:54:39.137Z",
+      "category": "browser",
+      "source_hash": "0d206d30368fbbe6cb6abf8e9b0b0d6217c41ae7c1c0b5c909f8b2327cc57948"
+    },
+    {
+      "id": "mcp-server-kubernetes",
+      "path": "mcp-server-kubernetes.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Server Kubernetes",
+      "description": "MCP server for managing Kubernetes clusters, enabling LLMs to interact with and control Kubernetes resources.",
+      "author": "flux159",
+      "icon": "https://github.com/flux159.png",
+      "homepage": "https://github.com/Flux159/mcp-server-kubernetes",
+      "tags": [
+        "实用工具",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-kubernetes"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 157,
+      "updated_at": "2026-05-27T06:54:39.139Z",
+      "category": "utility",
+      "source_hash": "99c0aefdb207a5011579223dae953483d1d5a75be31e5b4879edbe8ebf8de602"
+    },
+    {
+      "id": "edgeone-pages-mcp",
+      "path": "edgeone-pages-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "EdgeOne Pages MCP",
+      "description": "Enables rapid deployment of HTML content to Tencent's EdgeOne Pages service with integrated Functions and KV store support for edge hosting",
+      "author": "tencentedgeone",
+      "icon": "https://github.com/tencentedgeone.png",
+      "homepage": "https://github.com/tencentedgeone/edgeone-pages-mcp",
+      "tags": [
+        "实用工具",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "edgeone-pages-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 149,
+      "updated_at": "2026-05-27T06:54:39.140Z",
+      "category": "utility",
+      "source_hash": "0cf96e0597269357b94c109d88f31a3370e84c9ef99d49fe0b9d2130e0c3d817"
+    },
+    {
+      "id": "alibabacloud-mcp-server",
+      "path": "alibabacloud-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Alibaba Cloud Ops MCP Server",
+      "description": "Provides a bridge to Alibaba Cloud services for managing ECS instances, viewing resources, monitoring metrics, and configuring VPC networks through natural language commands",
+      "author": "aliyun",
+      "icon": "https://github.com/aliyun.png",
+      "homepage": "https://github.com/aliyun/alibaba-cloud-ops-mcp-server",
+      "tags": [
+        "实用工具",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "alibabacloud-mcp-server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python",
+          "uvx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 149,
+      "updated_at": "2026-05-27T06:54:39.140Z",
+      "category": "utility",
+      "source_hash": "6c3462937dd9edbb0c71b3840e24510f146ec45522f7b975089cd54281bfb270"
+    },
+    {
+      "id": "apisix-mcp",
+      "path": "apisix-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "APISIX MCP",
+      "description": "Bridge LLMs with the APISIX Admin API to manage and analyze API gateway information.",
+      "author": "api7",
+      "icon": "https://github.com/api7.png",
+      "homepage": "https://github.com/api7/apisix-mcp",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "apisix-mcp"
+      ],
+      "env": {
+        "APISIX_SERVER_HOST": "your-apisix-server-host",
+        "APISIX_SERVER_PORT": "your-apisix-server-port",
+        "APISIX_ADMIN_API_PORT": "your-apisix-admin-api-port",
+        "APISIX_ADMIN_API_PREFIX": "your-apisix-admin-api-prefix",
+        "APISIX_ADMIN_KEY": "your-apisix-api-key"
+      },
+      "variables": [
+        {
+          "key": "APISIX_SERVER_HOST",
+          "label": "APISIX_SERVER_HOST",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 APISIX_SERVER_HOST(示例:your-apisix-server-host)"
+        },
+        {
+          "key": "APISIX_SERVER_PORT",
+          "label": "APISIX_SERVER_PORT",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 APISIX_SERVER_PORT(示例:your-apisix-server-port)"
+        },
+        {
+          "key": "APISIX_ADMIN_API_PORT",
+          "label": "APISIX_ADMIN_API_PORT",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 APISIX_ADMIN_API_PORT(示例:your-apisix-admin-api-port)"
+        },
+        {
+          "key": "APISIX_ADMIN_API_PREFIX",
+          "label": "APISIX_ADMIN_API_PREFIX",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 APISIX_ADMIN_API_PREFIX(示例:your-apisix-admin-api-prefix)"
+        },
+        {
+          "key": "APISIX_ADMIN_KEY",
+          "label": "APISIX_ADMIN_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 APISIX_ADMIN_KEY(示例:your-apisix-api-key)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 424,
+      "updated_at": "2026-05-27T06:54:39.146Z",
+      "category": "utility",
+      "source_hash": "575967addac4c4ab3255a4868e5b28b6ee5914214610b60957503d57906d630a"
+    },
+    {
+      "id": "mcp-server-esa",
+      "path": "mcp-server-esa.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Server ESA",
+      "description": "Provides a bridge to Alibaba Cloud's Edge Security Acceleration service for managing edge routines, deployments, routes, and sites through authenticated API operations.",
+      "author": "aliyun",
+      "icon": "https://github.com/aliyun.png",
+      "homepage": "https://github.com/aliyun/mcp-server-esa",
+      "tags": [
+        "实用工具",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-server-esa"
+      ],
+      "env": {
+        "ALIBABA_CLOUD_ACCESS_KEY_ID": "your AK",
+        "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "your SK",
+        "ALIBABA_CLOUD_SECURITY_TOKEN": "sts_security_token optional, required when using STS Token (By default, no need to pass)"
+      },
+      "variables": [
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "label": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 ALIBABA_CLOUD_ACCESS_KEY_ID(示例:your AK)"
+        },
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "label": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 ALIBABA_CLOUD_ACCESS_KEY_SECRET(示例:your SK)"
+        },
+        {
+          "key": "ALIBABA_CLOUD_SECURITY_TOKEN",
+          "label": "ALIBABA_CLOUD_SECURITY_TOKEN",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 ALIBABA_CLOUD_SECURITY_TOKEN(示例:sts_security_token optional, required when using STS Token (By default, no need )"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 377,
+      "updated_at": "2026-05-27T06:54:39.147Z",
+      "category": "utility",
+      "source_hash": "1fbbc6049acf0c551739923f72ad159323babffd26488c9200753627804b26b0"
+    },
+    {
+      "id": "alibabacloud-fc-mcp-server",
+      "path": "alibabacloud-fc-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Alibaba Cloud FC MCP Server",
+      "description": "Integrates with Alibaba Cloud Function Compute to deploy and manage serverless functions with multi-language runtime support, custom domain routing, and VPC configuration for automated cloud function lifecycle management.",
+      "author": "aliyun",
+      "icon": "https://github.com/aliyun.png",
+      "homepage": "https://github.com/aliyun/alibabacloud-fc-mcp-server",
+      "tags": [
+        "实用工具",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "alibabacloud-fc-mcp-server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 167,
+      "updated_at": "2026-05-27T06:54:39.150Z",
+      "category": "utility",
+      "source_hash": "e8c148bbc40a8213094c7010b3c317383458a17a22f8f602d7ba098aa5aa1f50"
+    },
+    {
+      "id": "aliyun-mcp-server",
+      "path": "aliyun-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Aliyun MCP Server",
+      "description": "Integrates with Alibaba Cloud services to query and filter SLS logs, with future support for ECS instance management and serverless function deployment.",
+      "author": "nailuogg",
+      "icon": "https://github.com/nailuogg.png",
+      "homepage": "https://github.com/nailuogg/aliyun-mcp-server",
+      "tags": [
+        "实用工具",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "aliyun-mcp-server"
+      ],
+      "env": {
+        "ALIYUN_ACCESS_KEY_ID": "your-access-key-id",
+        "ALIYUN_ACCESS_KEY_SECRET": "your-access-key-secret",
+        "SLS_ENDPOINT": "cn-hangzhou.log.aliyuncs.com"
+      },
+      "variables": [
+        {
+          "key": "ALIYUN_ACCESS_KEY_ID",
+          "label": "ALIYUN_ACCESS_KEY_ID",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 ALIYUN_ACCESS_KEY_ID(示例:your-access-key-id)"
+        },
+        {
+          "key": "ALIYUN_ACCESS_KEY_SECRET",
+          "label": "ALIYUN_ACCESS_KEY_SECRET",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 ALIYUN_ACCESS_KEY_SECRET(示例:your-access-key-secret)"
+        },
+        {
+          "key": "SLS_ENDPOINT",
+          "label": "SLS_ENDPOINT",
+          "type": "url",
+          "required": true,
+          "secret": false,
+          "description": "请填写 SLS_ENDPOINT(示例:cn-hangzhou.log.aliyuncs.com)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 319,
+      "updated_at": "2026-05-27T06:54:39.151Z",
+      "category": "utility",
+      "source_hash": "d6a805dd172d1c6855245617231633ae3ca267c54981d1486c9c7d02f56ef44a"
+    },
+    {
+      "id": "cloudbase-cloudbase-mcp",
+      "path": "cloudbase-cloudbase-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Cloudbase AI Toolkit",
+      "description": "Enables AI systems to deploy, monitor, and manage full-stack applications on Tencent CloudBase through tools for cloud environments, databases, functions, hosting services, and storage resources.",
+      "author": "tencentcloudbase",
+      "icon": "https://github.com/tencentcloudbase.png",
+      "homepage": "https://github.com/tencentcloudbase/cloudbase-ai-toolkit",
+      "tags": [
+        "实用工具",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cloudbase/cloudbase-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 162,
+      "updated_at": "2026-05-27T06:54:39.152Z",
+      "category": "utility",
+      "source_hash": "ca83ca79d0d0de12d2b4a26999f008197bc30ee39f96d49fdc45333e4f9c909d"
+    },
+    {
+      "id": "postgres-mcp",
+      "path": "postgres-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Postgres MCP",
+      "description": "Helps you and your AI agents throughout the entire development process—from writing SQL to tuning performance safely.",
+      "author": "crystaldba",
+      "icon": "https://github.com/crystaldba.png",
+      "homepage": "https://github.com/crystaldba/postgres-mcp",
+      "tags": [
+        "数据库",
+        "数据访问",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "postgres-mcp"
+      ],
+      "env": {
+        "DATABASE_URI": "postgresql://username:password@localhost:5432/dbname"
+      },
+      "variables": [
+        {
+          "key": "DATABASE_URI",
+          "label": "DATABASE_URI",
+          "type": "url",
+          "required": true,
+          "secret": false,
+          "description": "请填写 DATABASE_URI(示例:postgresql://username:password@localhost:5432/dbname)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python",
+          "uvx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 209,
+      "updated_at": "2026-05-27T06:54:39.163Z",
+      "category": "database",
+      "source_hash": "ab20f6591a7175278e15e15a29b9f3d5b51757fa56ebbb610641ac6c0284162c"
+    },
+    {
+      "id": "mongodb-mcp-server",
+      "path": "mongodb-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MongoDB MCP Server",
+      "description": "Provides a bridge between MongoDB databases and conversational interfaces, enabling comprehensive database operations, collection management, schema inspection, and Atlas cloud service interactions with authentication and telemetry support.",
+      "author": "mongodb-js",
+      "icon": "https://github.com/mongodb-js.png",
+      "homepage": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "tags": [
+        "数据库",
+        "数据访问",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mongodb-mcp-server"
+      ],
+      "env": {
+        "MDB_MCP_CONNECTION_STRING": "mongodb+srv://username:password@cluster.mongodb.net/myDatabase"
+      },
+      "variables": [
+        {
+          "key": "MDB_MCP_CONNECTION_STRING",
+          "label": "MDB_MCP_CONNECTION_STRING",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 MDB_MCP_CONNECTION_STRING(示例:mongodb+srv://username:password@cluster.mongodb.net/myDatabase)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 256,
+      "updated_at": "2026-05-27T06:54:39.165Z",
+      "category": "database",
+      "source_hash": "bbcdfc7375ad8abd95e382abc4c5e4f750ab71aa0684b08f7d001232b7dd03e3"
+    },
+    {
+      "id": "chroma-mcp",
+      "path": "chroma-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Chroma MCP",
+      "description": "Integrates with Chroma vector database to enable collection management, document operations, and vector search capabilities for knowledge bases and context-aware conversations.",
+      "author": "chroma-core",
+      "icon": "https://github.com/chroma-core.png",
+      "homepage": "https://github.com/chroma-core/chroma-mcp",
+      "tags": [
+        "数据库",
+        "数据访问",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "chroma-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python",
+          "uvx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 123,
+      "updated_at": "2026-05-27T06:54:39.165Z",
+      "category": "database",
+      "source_hash": "7e858db39fcf81e4149959c46e59693e4d9603c19d3b92992efba3e716a6c9cf"
+    },
+    {
+      "id": "adb-mysql-mcp-server",
+      "path": "adb-mysql-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Alibaba Cloud Adb MySQL MCP Server",
+      "description": "Connects to Alibaba Cloud's Adb MySQL databases for executing SQL queries, analyzing query plans, and retrieving database metadata with minimal configuration requirements",
+      "author": "aliyun",
+      "icon": "https://github.com/aliyun.png",
+      "homepage": "https://github.com/aliyun/alibabacloud-adb-mysql-mcp-server",
+      "tags": [
+        "数据库",
+        "数据访问",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "adb-mysql-mcp-server"
+      ],
+      "env": {
+        "ADB_MYSQL_HOST": "host",
+        "ADB_MYSQL_PORT": "port",
+        "ADB_MYSQL_USER": "database_user",
+        "ADB_MYSQL_PASSWORD": "database_password",
+        "ADB_MYSQL_DATABASE": "database"
+      },
+      "variables": [
+        {
+          "key": "ADB_MYSQL_HOST",
+          "label": "ADB_MYSQL_HOST",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 ADB_MYSQL_HOST(示例:host)"
+        },
+        {
+          "key": "ADB_MYSQL_PORT",
+          "label": "ADB_MYSQL_PORT",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 ADB_MYSQL_PORT(示例:port)"
+        },
+        {
+          "key": "ADB_MYSQL_USER",
+          "label": "ADB_MYSQL_USER",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 ADB_MYSQL_USER(示例:database_user)"
+        },
+        {
+          "key": "ADB_MYSQL_PASSWORD",
+          "label": "ADB_MYSQL_PASSWORD",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 ADB_MYSQL_PASSWORD(示例:database_password)"
+        },
+        {
+          "key": "ADB_MYSQL_DATABASE",
+          "label": "ADB_MYSQL_DATABASE",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 ADB_MYSQL_DATABASE(示例:database)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python",
+          "uvx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 341,
+      "updated_at": "2026-05-27T06:54:39.175Z",
+      "category": "database",
+      "source_hash": "6a30d6dfd3899f78ddd2869fdeec2229fc1063f9f1ef98f034617391fc32c3d5"
+    },
+    {
+      "id": "wecom-bot-mcp-server",
+      "path": "wecom-bot-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "WeCom Bot MCP Server",
+      "description": "Integrates WeCom (WeChat Work) bot functionality for enterprise messaging, notifications, and interactive chatbots.",
+      "author": "loonghao",
+      "icon": "https://github.com/loonghao.png",
+      "homepage": "https://github.com/loonghao/wecom-bot-mcp-server",
+      "tags": [
+        "通信协作",
+        "通信消息",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "wecom-bot-mcp-server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python",
+          "uvx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 143,
+      "updated_at": "2026-05-27T06:54:39.189Z",
+      "category": "communication",
+      "source_hash": "55147bf105c9e753fffa9003e2b1842196d1d0897cffdc25d73e9faebcc70135"
+    },
+    {
+      "id": "pubnub-mcp",
+      "path": "pubnub-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "PubNub MCP Server",
+      "description": "Enables AI assistants to interact with PubNub's realtime communication platform for retrieving documentation, accessing SDK information, and utilizing messaging APIs without leaving their conversation context.",
+      "author": "pubnub",
+      "icon": "https://github.com/pubnub.png",
+      "homepage": "https://github.com/pubnub/pubnub-mcp-server",
+      "tags": [
+        "通信协作",
+        "通信消息",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@pubnub/mcp"
+      ],
+      "env": {
+        "PUBNUB_PUBLISH_KEY": "YOUR_PUBLISH_KEY",
+        "PUBNUB_SUBSCRIBE_KEY": "YOUR_SUBSCRIBE_KEY"
+      },
+      "variables": [
+        {
+          "key": "PUBNUB_PUBLISH_KEY",
+          "label": "PUBNUB_PUBLISH_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 PUBNUB_PUBLISH_KEY(示例:YOUR_PUBLISH_KEY)"
+        },
+        {
+          "key": "PUBNUB_SUBSCRIBE_KEY",
+          "label": "PUBNUB_SUBSCRIBE_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 PUBNUB_SUBSCRIBE_KEY(示例:YOUR_SUBSCRIBE_KEY)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 240,
+      "updated_at": "2026-05-27T06:54:39.206Z",
+      "category": "communication",
+      "source_hash": "1fa035b8ac417221179470b52d2139ccf8eaca6b4a4be181704799bf9fb2a3c5"
+    },
+    {
+      "id": "discord-mcp",
+      "path": "discord-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Discord MCP",
+      "description": "A Model Context Protocol (MCP) server that provides Discord integration capabilities, including full file attachment support, rate limiting, and comprehensive Discord API features. Built with the official @modelcontextprotocol/sdk for maximum compatibility with Claude Code and other MCP clients.",
+      "author": "mastra-ai",
+      "icon": "https://github.com/mastra-ai.png",
+      "homepage": "https://github.com/mastra-ai/discord-mcp-server",
+      "tags": [
+        "通信协作",
+        "通信消息",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "discord-mcp"
+      ],
+      "env": {
+        "NODE_ENV": "eg: production",
+        "DISCORD_BOT_TOKEN": "Your Discord bot token"
+      },
+      "variables": [
+        {
+          "key": "NODE_ENV",
+          "label": "NODE_ENV",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 NODE_ENV(示例:eg: production)"
+        },
+        {
+          "key": "DISCORD_BOT_TOKEN",
+          "label": "DISCORD_BOT_TOKEN",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 DISCORD_BOT_TOKEN(示例:Your Discord bot token)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 230,
+      "updated_at": "2026-05-27T06:54:39.207Z",
+      "category": "communication",
+      "source_hash": "bd170e70508aa6771146b1519b299dbb6b65a5ede81e6d460a26fb7a8c7ef3f9"
+    },
+    {
+      "id": "mem0-mcp-server",
+      "path": "mem0-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Mem0 MCP Server",
+      "description": "A Model Context Protocol (MCP) server that provides memory storage and retrieval capabilities using Mem0. This tool allows you to store and search through memories, making it useful for maintaining context and making informed decisions based on past interactions.",
+      "author": "mem0ai",
+      "icon": "https://avatars.githubusercontent.com/u/137054526?s=480&v=4",
+      "homepage": "https://github.com/mem0ai/mem0-mcp",
+      "tags": [
+        "记忆知识",
+        "研发提效",
+        "知识管理"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mem0/mcp-server"
+      ],
+      "env": {
+        "MEM0_API_KEY": "YOUR-API-KEY-HERE"
+      },
+      "variables": [
+        {
+          "key": "MEM0_API_KEY",
+          "label": "MEM0_API_KEY",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 MEM0_API_KEY(示例:YOUR-API-KEY-HERE)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 193,
+      "updated_at": "2026-05-27T06:54:39.222Z",
+      "category": "memory",
+      "source_hash": "3e5b2777ae19880358273e0cea534a3a3cd7f962ae4934c24d14b6f9097a8670"
+    },
+    {
+      "id": "gleanwork-mcp-server",
+      "path": "gleanwork-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Glean MCP Server",
+      "description": "Integrates with Glean's enterprise knowledge platform to provide company search, people profile lookup, and AI assistant capabilities directly within your workflow.",
+      "author": "gleanwork",
+      "icon": "https://github.com/gleanwork.png",
+      "homepage": "https://github.com/gleanwork/mcp-server",
+      "tags": [
+        "记忆知识",
+        "研发提效",
+        "知识管理"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@gleanwork/mcp-server"
+      ],
+      "env": {
+        "GLEAN_INSTANCE": "<glean instance name>",
+        "GLEAN_API_TOKEN": "<glean api token>"
+      },
+      "variables": [
+        {
+          "key": "GLEAN_INSTANCE",
+          "label": "GLEAN_INSTANCE",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 GLEAN_INSTANCE(示例:<glean instance name>)"
+        },
+        {
+          "key": "GLEAN_API_TOKEN",
+          "label": "GLEAN_API_TOKEN",
+          "type": "secret",
+          "required": true,
+          "secret": true,
+          "description": "请填写 GLEAN_API_TOKEN(示例:<glean api token>)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": true,
+        "shell": false
+      },
+      "file_size": 255,
+      "updated_at": "2026-05-27T06:54:39.224Z",
+      "category": "memory",
+      "source_hash": "a73ecb13e63c4a75c070cb1e570d0381736beb7cba35c44e38d0b74ff9c50f55"
+    },
+    {
+      "id": "antv-mcp-server-chart",
+      "path": "antv-mcp-server-chart.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Server Chart",
+      "description": "A visualization mcp contains 25+ visual charts using @antvis. Using for chart generation and data analysis.",
+      "author": "antvis",
+      "icon": "https://avatars.githubusercontent.com/u/19199542?s=480&v=4",
+      "homepage": "https://github.com/antvis/mcp-server-chart",
+      "tags": [
+        "AI增强",
+        "图表可视化",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@antv/mcp-server-chart"
+      ],
+      "env": {
+        "VIS_REQUEST_SERVER": "<YOUR_VIS_REQUEST_SERVER>"
+      },
+      "variables": [
+        {
+          "key": "VIS_REQUEST_SERVER",
+          "label": "VIS_REQUEST_SERVER",
+          "type": "string",
+          "required": true,
+          "secret": false,
+          "description": "请填写 VIS_REQUEST_SERVER(示例:<YOUR_VIS_REQUEST_SERVER>)"
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 219,
+      "updated_at": "2026-05-27T06:54:39.229Z",
+      "category": "ai",
+      "source_hash": "856d279d7acf3f5068360ec4d0891b8dc552addcf3d201a089919c26de701f8b"
+    },
+    {
+      "id": "gongrzhe-server-json-mcp",
+      "path": "gongrzhe-server-json-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "JSON MCP Server",
+      "description": "Provides a JSON manipulation interface using JSONPath syntax for querying, transforming, and analyzing structured data across diverse datasets.",
+      "author": "gongrzhe",
+      "icon": "https://github.com/gongrzhe.png",
+      "homepage": "https://github.com/gongrzhe/json-mcp-server",
+      "tags": [
+        "实用工具",
+        "云服务",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@gongrzhe/server-json-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node",
+          "npx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 164,
+      "updated_at": "2026-05-27T06:54:39.230Z",
+      "category": "utility",
+      "source_hash": "91ab4a1b5fcc028d4ff1a968f0611c08397dcd1546764277c83e50817ad3a94b"
+    },
+    {
+      "id": "mcp-excel-server",
+      "path": "mcp-excel-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Excel Server",
+      "description": "Enables Excel file operations and data analysis with tools for statistical analysis, data filtering, pivot table creation, and visualization through charts and plots.",
+      "author": "yzfly",
+      "icon": "https://github.com/yzfly.png",
+      "homepage": "https://github.com/yzfly/mcp-excel-server",
+      "tags": [
+        "文件处理",
+        "文档处理",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-excel-server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python",
+          "uvx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 135,
+      "updated_at": "2026-05-27T06:54:39.230Z",
+      "category": "filesystem",
+      "source_hash": "1247cbf9b0779a627abeea1ca83410d86b117b7394a17c51a5e7c4f1fc96b8ab"
+    },
+    {
+      "id": "mcp-server-opendal",
+      "path": "mcp-server-opendal.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Server Opendal",
+      "description": "Integrates with OpenDAL to provide unified access to diverse storage backends, enabling LLMs to read from and write to various storage systems for data management tasks.",
+      "author": "xuanwo",
+      "icon": "https://github.com/xuanwo.png",
+      "homepage": "https://github.com/xuanwo/mcp-server-opendal",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-server-opendal"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python",
+          "uvx"
+        ]
+      },
+      "permissions": {
+        "filesystem": "none",
+        "network": false,
+        "shell": false
+      },
+      "file_size": 139,
+      "updated_at": "2026-05-27T06:54:39.231Z",
+      "category": "utility",
+      "source_hash": "481e2d70f50c0580a262630c3805741732e2d67fa46db3489b923bb5e0a47e7c"
+    },
+    {
+      "id": "pkulaw-pkulaw-mcp-law-search",
+      "path": "pkulaw-pkulaw-mcp-law-search.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "北大法宝法律智能检索MCP服务",
+      "description": "这是[北大法宝](https://www.pkulaw.com/)提供的用于法律法规智能检索的MCP服务。使用文本嵌入，进行语义检索。",
+      "author": "Pkulaw",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/d5f3a5aa-e1d1-4a8d-a4ec-1ef5ab5a4991.png",
+      "homepage": "https://pypi.org/project/pkulaw-mcp-proxy/@latest",
+      "tags": [
+        "搜索检索",
+        "专业数据"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "pkulaw-mcp-law-search"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-26T09:01:53.000Z",
+      "source_hash": "e8ddfa2f440c3f1f5b5ad9ff3a98b9be21e7cd235029982150f505b451ceea6d"
+    },
+    {
+      "id": "aliyun-wuying-agentbay-mcp-server",
+      "path": "aliyun-wuying-agentbay-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "无影 Agent 开发套件 AgentBay",
+      "description": "无影AgentBay是AI 时代的Agent云基础设施， 面向企业、开发者、AI厂商，提供可一键配置的AI Agent任务执行工具和执行环境。您可以通过无影API或AgentBay MCP Server快速集成，并调用相关工具获取Serverless服务。",
+      "author": "aliyun",
+      "icon": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_97ce290c-1269-428f-87d0-f90f46f039a9.png",
+      "homepage": "https://help.aliyun.com/zh/agentbay/product-overview/",
+      "tags": [
+        "开发工具",
+        "云服务",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "wuying-agentbay-mcp-server"
+      ],
+      "env": {
+        "APIKEY": "${APIKEY}",
+        "IMAGEID": "${IMAGEID}"
+      },
+      "variables": [
+        {
+          "key": "APIKEY",
+          "name": "APIKEY",
+          "description": "Your API key",
+          "type": "secret",
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "IMAGEID",
+          "name": "IMAGEID",
+          "description": "设置指定的系统镜像",
+          "type": "string",
+          "required": false,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-04-26T13:44:22.000Z",
+      "source_hash": "b02f0b9947625131f9460d156e28681e235e90bfdf00d08e81dfc29e51e26dab"
+    },
+    {
+      "id": "modelscope-modelscope-mcp-server",
+      "path": "modelscope-modelscope-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "ModelScope MCP Server",
+      "description": "魔搭社区官方 MCP 服务器，为你的 AI 应用提供一站式接入能力，轻松访问平台海量的模型、数据集、创空间、论文、MCP 服务，以及各种 AIGC 生成能力。",
+      "author": "modelscope",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/54e9dd07-21c0-43fd-8a99-a2a8d0344181.png",
+      "homepage": "https://github.com/modelscope/modelscope-mcp-server",
+      "tags": [
+        "AI增强",
+        "多媒体生成",
+        "研发提效",
+        "专业数据"
+      ],
+      "category": "ai",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "modelscope-mcp-server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-26T05:54:43.000Z",
+      "source_hash": "5453d830f7590d5521e23cf5a333f79a600aee1405defa7b1bcf385a3e95b642"
+    },
+    {
+      "id": "eis4ty-china-festival-mcp",
+      "path": "eis4ty-china-festival-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "中国节假日MCP",
+      "description": "一个基于模型上下文协议（MCP）的中国节假日和农历信息服务器，为AI助手提供准确的法定节假日、调休安排、中国传统节日、农历转换、二十四节气和八字计算功能。",
+      "author": "Eis4TY",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/dff148c6-c665-4049-8f2d-1991e500db63.png",
+      "homepage": "https://github.com/Eis4TY/china-festival-mcp",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "china-festival-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-04-22T07:49:46.000Z",
+      "source_hash": "50028eda0bd387493fed2093de3bf7f16d940fcae852eab0cc0e89bb110d9775"
+    },
+    {
+      "id": "kuaidi100-api-kuaidi100-mcp",
+      "path": "kuaidi100-api-kuaidi100-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "快递100 MCP Server",
+      "description": "快递100 MCP Server提供快递信息查询、快递运费预估比价、快递时效查询（含发货前时效查询与在途动态时效查询）等功能。 ",
+      "author": "kuaidi100-api",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/2215808c-f281-47c2-9db9-cb3ba0496c03.png",
+      "homepage": "https://github.com/kuaidi100-api/kuaidi100-MCP",
+      "tags": [
+        "实用工具",
+        "生活服务",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "kuaidi100-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-04-25T11:53:50.000Z",
+      "source_hash": "400923f19364a5ce4893a9ce9b566fb9d4797af1784b2756f4bc327d89182199"
+    },
+    {
+      "id": "aliyun-alibabacloud-devops-mcp-server",
+      "path": "aliyun-alibabacloud-devops-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "云效DevOps",
+      "description": "云效DevOps MCP 是一个为阿里云云效 DevOps 平台构建的 MCP 服务，可以为 AI 助手提供与云效平台交互的能力，包括需求获取、代码库搜索、代码提交等能力。 ",
+      "author": "aliyun",
+      "icon": "https://resources.modelscope.cn/studio-cover-prod/studio-cover_772aa205-294f-4892-83de-eed5b1ed5432.png",
+      "homepage": "https://github.com/aliyun/alibabacloud-devops-mcp-server",
+      "tags": [
+        "搜索检索",
+        "云服务",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "alibabacloud-devops-mcp-server"
+      ],
+      "env": {
+        "YUNXIAO_ACCESS_TOKEN": "${YUNXIAO_ACCESS_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "YUNXIAO_ACCESS_TOKEN",
+          "name": "YUNXIAO_ACCESS_TOKEN",
+          "description": "<YOUR_TOKEN>",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-04-29T03:37:15.000Z",
+      "source_hash": "32a7c84238cb5747a562cdd05ae3f034246b142f62836d057bab602d48867ff1"
+    },
+    {
+      "id": "eis4ty-sym-mcp",
+      "path": "eis4ty-sym-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Sym-MCP",
+      "description": "一个面向生产的MCP服务，允许代理/LLM安全高效地运行SymPy。它结合了AST策略检查、运行时资源限制和预热工作进程，以提供低噪音、易于解析的结果。",
+      "author": "Eis4TY",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/0e0f9946-d193-4885-b34b-c82bb954e2fd.png",
+      "homepage": "https://github.com/Eis4TY/Sym-MCP",
+      "tags": [
+        "开发工具",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "sym-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-03-02T09:57:50.000Z",
+      "source_hash": "8a8c2904563ed8766f14c20f3bc7d6b42d5f0e7615b42f10d0ec3d3247f831ca"
+    },
+    {
+      "id": "xgenerationlab-xhs-mcp-server",
+      "path": "xgenerationlab-xhs-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "小红书MCP发布器",
+      "description": "一种用于发布小红书（红笔记）的模型上下文协议（MCP）服务器",
+      "author": "XGenerationLab",
+      "icon": "https://img.alicdn.com/imgextra/i4/O1CN01wBl8wv1cqD5Dpfn4O_!!6000000003651-2-tps-1929-2007.png",
+      "homepage": "https://pypi.org/project/xhs-mcp-server/",
+      "tags": [
+        "浏览器自动化",
+        "内容媒体",
+        "知识管理"
+      ],
+      "category": "browser",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "xhs_mcp_server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-04-27T12:15:30.000Z",
+      "source_hash": "4944209ccf1f3c9eb5bd8ab8a4030e1fdd25e3d09e9ae72c891cedb962c536e1"
+    },
+    {
+      "id": "suxyee-aliyun-sls-mcp",
+      "path": "suxyee-aliyun-sls-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "阿里云 SLS 日志分析助手",
+      "description": "aliyun-sls-mcp 是一个服务器，允许 AI 助手（Cursor / Claude Desktop）使用自然语言查询阿里云日志服务（SLS），无需手动翻阅控制台。它支持多种日志源，如函数计算、SAE、ECS、ACK、API 网关和 RDS 慢查询。该工具提供了列出项目、查询日志、SQL 分析等功能。",
+      "author": "SuxyEE",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/3c6dd644-2744-4511-b0e6-3febea1fa122",
+      "homepage": "https://github.com/SuxyEE/aliyun-sls-mcp",
+      "tags": [
+        "开发工具",
+        "数据访问",
+        "云服务",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "aliyun-sls-mcp"
+      ],
+      "env": {
+        "ALIBABA_CLOUD_ACCESS_KEY_ID": "${ALIBABA_CLOUD_ACCESS_KEY_ID}",
+        "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "${ALIBABA_CLOUD_ACCESS_KEY_SECRET}",
+        "SLS_REGIONS": "${SLS_REGIONS}"
+      },
+      "variables": [
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "description": "你的AccessKeyId",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "description": "你的AccessKeySecret",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "SLS_REGIONS",
+          "name": "SLS_REGIONS",
+          "description": "cn-hangzhou",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-03-19T05:05:51.000Z",
+      "source_hash": "78f0f8b4ccecda81ff56d6e8e92faeb27ab49774ce008426edf963646522e39f"
+    },
+    {
+      "id": "jackdark425-aigroup-aliyunoss-mcp",
+      "path": "jackdark425-aigroup-aliyunoss-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "阿里云oss MCP",
+      "description": "该项目为阿里云OSS（对象存储服务）提供了一个MCP（模型上下文协议）服务器，支持完整的云存储操作功能。它包括完整的OSS功能、MCP协议支持、高性能、易于配置、安全可靠、可观测性和可扩展性。",
+      "author": "jackdark425",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/bbbe6cfc-6cfd-400c-a709-7f0619dfef6b.jpg",
+      "homepage": "https://github.com/jackdark425/aigroup-aliyunoss-mcp",
+      "tags": [
+        "文件处理",
+        "云服务",
+        "研发提效"
+      ],
+      "category": "filesystem",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "aigroup-aliyunoss-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2025-12-01T10:16:19.000Z",
+      "source_hash": "84c803c5df0a576d887938bc78888399fc54150f7437729899ddedb7ddec5fc9"
+    },
+    {
+      "id": "mailzwj-modelscope-image-mcp",
+      "path": "mailzwj-modelscope-image-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "魔搭图像生成MCP",
+      "description": "魔搭图像生成MCP",
+      "author": "mailzwj",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/a67e44f0-c6d7-4119-b7bb-f2ac27daeacd",
+      "homepage": "https://github.com/mailzwj/modelscope-image-mcp/blob/main/README.md",
+      "tags": [
+        "AI增强",
+        "研发提效"
+      ],
+      "category": "ai",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "modelscope-image-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-03-11T05:02:18.000Z",
+      "source_hash": "9e9749b91faeeb6b834064771b315dea35384f62d819acd424c3ee3019265370"
+    },
+    {
+      "id": "panjxhhhhh-mcp-aliyun-datahub",
+      "path": "panjxhhhhh-mcp-aliyun-datahub.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "阿里云Datahub",
+      "description": "阿里云Datahub",
+      "author": "panjxhhhhh",
+      "icon": "https://github.com/panjxhhhhh.png",
+      "homepage": "https://github.com/panjxhhhhh/mcp-aliyun-datahub",
+      "tags": [
+        "开发工具",
+        "云服务",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "mcp-aliyun-datahub"
+      ],
+      "env": {
+        "ALIBABA_CLOUD_ACCESS_KEY_ID": "${ALIBABA_CLOUD_ACCESS_KEY_ID}",
+        "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "${ALIBABA_CLOUD_ACCESS_KEY_SECRET}"
+      },
+      "variables": [
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "description": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "description": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2025-09-08T02:34:22.000Z",
+      "source_hash": "f9cfe836e026c8f1b940cefd7d42da9854e4d30f920e4319ceb3a287fb97cc9f"
+    },
+    {
+      "id": "rockcj-docx-mcp",
+      "path": "rockcj-docx-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "word文档编辑mcp全面升级版(支持本地和web上传)",
+      "description": "一个功能强大的 Word 文档处理 MCP 服务，提供文档结构提取、内容修改、云存储集成等完整的文档处理解决方案。支持从URL下载文档、批量修改内容、自动上传到阿里云OSS等功能，完全兼容MCP协议，可无缝集成到各种AI助手中。\n",
+      "author": "rockcj",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/837d7fcd-b531-43f4-969f-43dc1af4583a.png",
+      "homepage": "https://github.com/rockcj/Docx_MCP_cj.git",
+      "tags": [
+        "文件处理",
+        "文档处理",
+        "云服务",
+        "研发提效"
+      ],
+      "category": "filesystem",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "uvx",
+      "args": [
+        "docx_mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "python"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-25T08:14:36.000Z",
+      "source_hash": "58aab6b20a58d726d1ababb123ac6732b491c9adc41f49ffb4eb3fca86034fad"
+    },
+    {
+      "id": "hustcc-mcp-mermaid",
+      "path": "hustcc-mcp-mermaid.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Mermaid MCP",
+      "description": "使用AI MCP动态生成Mermaid图表。支持所有Mermaid功能、背景颜色和主题配置，并可以导出为png、svg和mermaid格式。",
+      "author": "hustcc",
+      "icon": "https://resources.modelscope.cn/mcp-server-cover/61b5dcc9-3b81-41fa-bbca-dab71e34463d.png",
+      "homepage": "https://github.com/hustcc/mcp-mermaid",
+      "tags": [
+        "开发工具",
+        "图表可视化",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-mermaid"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-02-13T22:47:32.000Z",
+      "source_hash": "b57e20236b415aceea384b2bed8b4bb8fb88ea227d1b6db8b708531a83547cc3"
+    },
+    {
+      "id": "chatmcp-mcp-server-flomo",
+      "path": "chatmcp-mcp-server-flomo.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Flomo笔记助手",
+      "description": "一个基于 TypeScript 的 MCP 服务器，帮助您将笔记写入 Flomo。",
+      "author": "chatmcp",
+      "icon": "https://resources.modelscope.cn/studio-cover-pre/studio-cover_2ee48488-82a8-445c-80be-b5fb5223c6ed.png",
+      "homepage": "https://github.com/chatmcp/mcp-server-flomo",
+      "tags": [
+        "记忆知识",
+        "研发提效",
+        "知识管理"
+      ],
+      "category": "memory",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@chatmcp/mcp-server-flomo"
+      ],
+      "env": {
+        "FLOMO_API_URL": "${FLOMO_API_URL}"
+      },
+      "variables": [
+        {
+          "key": "FLOMO_API_URL",
+          "name": "FLOMO_API_URL",
+          "description": "FLOMO_API_URL",
+          "type": "url",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-04-16T10:20:17.000Z",
+      "source_hash": "96da4966bc35b68dc9f381b02b349d7476bc45301db1a3a6636337a3c046803d"
+    },
+    {
+      "id": "wangshunnn-bilibili-mcp-server",
+      "path": "wangshunnn-bilibili-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Bilibili MCP 服务器",
+      "description": "一种模型上下文协议服务器，允许AI助手检索用户信息、按ID搜索视频以及在bilibili.com上通过关键词查找内容。",
+      "author": "wangshunnn",
+      "icon": "https://github.com/wangshunnn.png",
+      "homepage": "https://github.com/wangshunnn/bilibili-mcp-server",
+      "tags": [
+        "AI增强",
+        "内容媒体",
+        "多媒体生成",
+        "研发提效"
+      ],
+      "category": "ai",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@wangshunnn/bilibili-mcp-server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-20T09:12:30.000Z",
+      "source_hash": "5ab8524215d204c495b0e9cb94611c6e8f4004010d8a094f23248d1024d96c43"
+    },
+    {
+      "id": "isaacphi-mcp-gdrive",
+      "path": "isaacphi-mcp-gdrive.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Google Drive MCP",
+      "description": "Integrates Google Drive and Sheets functionality for file operations and spreadsheet data manipulation.",
+      "author": "isaacphi",
+      "icon": "https://pbs.twimg.com/profile_images/1313395771304103947/g_ETxUbR_400x400.jpg",
+      "homepage": "https://github.com/isaacphi/mcp-gdrive",
+      "tags": [
+        "文件处理",
+        "搜索检索",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "filesystem",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@isaacphi/mcp-gdrive"
+      ],
+      "env": {
+        "CLIENT_ID": "${CLIENT_ID}",
+        "CLIENT_SECRET": "${CLIENT_SECRET}",
+        "GDRIVE_CREDS_DIR": "${GDRIVE_CREDS_DIR}"
+      },
+      "variables": [
+        {
+          "key": "CLIENT_ID",
+          "name": "CLIENT_ID",
+          "description": "<CLIENT_ID>",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "CLIENT_SECRET",
+          "name": "CLIENT_SECRET",
+          "description": "<CLIENT_SECRET>",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GDRIVE_CREDS_DIR",
+          "name": "GDRIVE_CREDS_DIR",
+          "description": "/path/to/config/directory",
+          "type": "path",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.294Z",
+      "source_hash": "3740019b9b0d7d849ab8dd6fec3d02235bf5714b226e04c2e87d8a3d37746451"
+    },
+    {
+      "id": "kevinwatt-mcp-webhook",
+      "path": "kevinwatt-mcp-webhook.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Webhook MCP",
+      "description": "Enables sending customizable messages to external webhook endpoints, facilitating automated notifications and workflow integrations.",
+      "author": "kevinwatt",
+      "icon": "https://www.svix.com/resources/assets/images/color-webhook-240-1deccb0e365ff4ea493396ad28638fb7.png",
+      "homepage": "https://github.com/kevinwatt/mcp-webhook",
+      "tags": [
+        "通信协作",
+        "通信消息",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kevinwatt/mcp-webhook"
+      ],
+      "env": {
+        "WEBHOOK_URL": "${WEBHOOK_URL}"
+      },
+      "variables": [
+        {
+          "key": "WEBHOOK_URL",
+          "name": "WEBHOOK_URL",
+          "description": "your-webhook-url",
+          "type": "url",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.295Z",
+      "source_hash": "ab39bb46ca1e13c767cb238d811630bba4039de46e85453e9303adffcee108f9"
+    },
+    {
+      "id": "kevinwatt-mysql-mcp",
+      "path": "kevinwatt-mysql-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MySQL MCP Server",
+      "description": "Provides secure MySQL database access for LLMs, enabling read/write operations with transaction support and security features for AI-assisted data management tasks.",
+      "author": "kevinwatt",
+      "icon": "https://pbs.twimg.com/profile_images/1255113654049128448/J5Yt92WW_400x400.png",
+      "homepage": "https://github.com/kevinwatt/mysql-mcp",
+      "tags": [
+        "数据库",
+        "数据访问",
+        "研发提效",
+        "AI增强"
+      ],
+      "category": "database",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kevinwatt/mysql-mcp"
+      ],
+      "env": {
+        "MYSQL_HOST": "${MYSQL_HOST}",
+        "MYSQL_PORT": "${MYSQL_PORT}",
+        "MYSQL_USER": "${MYSQL_USER}",
+        "MYSQL_PASS": "${MYSQL_PASS}",
+        "MYSQL_DB": "${MYSQL_DB}"
+      },
+      "variables": [
+        {
+          "key": "MYSQL_HOST",
+          "name": "MYSQL_HOST",
+          "description": "127.0.0.1",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "MYSQL_PORT",
+          "name": "MYSQL_PORT",
+          "description": "3306",
+          "type": "number",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "MYSQL_USER",
+          "name": "MYSQL_USER",
+          "description": "root",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "MYSQL_PASS",
+          "name": "MYSQL_PASS",
+          "description": "MYSQL_PASS",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "MYSQL_DB",
+          "name": "MYSQL_DB",
+          "description": "your_database",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.296Z",
+      "source_hash": "09fdfa027fce0a754f5071698312627922881b29ba29f01c379805e9ebd0f2c9"
+    },
+    {
+      "id": "modelcontextprotocol-servers-archived",
+      "path": "modelcontextprotocol-servers-archived.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "GitHub MCP Server",
+      "description": "Manage repositories, issues, and search code via GitHub API.",
+      "author": "modelcontextprotocol",
+      "icon": "https://pbs.twimg.com/profile_images/1633247750010830848/8zfRrYjA_400x400.png",
+      "homepage": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/github",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "name": "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "description": "<YOUR_TOKEN>",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.297Z",
+      "source_hash": "fb077db94a37f6a65db5f11cec1608909f74f7e9bfaa3e6e5c0b975e43280765"
+    },
+    {
+      "id": "modelcontextprotocol-servers-archived-2",
+      "path": "modelcontextprotocol-servers-archived-2.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Slack MCP Server",
+      "description": "Send messages, manage channels, and access workspace history.",
+      "author": "modelcontextprotocol",
+      "icon": "https://pbs.twimg.com/profile_images/1808594616285081605/AymaXgIX_400x400.jpg",
+      "homepage": "https://github.com/modelcontextprotocol/servers-archived/tree/HEAD/src/slack",
+      "tags": [
+        "通信协作",
+        "通信消息",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-slack"
+      ],
+      "env": {
+        "SLACK_BOT_TOKEN": "${SLACK_BOT_TOKEN}",
+        "SLACK_TEAM_ID": "${SLACK_TEAM_ID}",
+        "SLACK_CHANNEL_IDS": "${SLACK_CHANNEL_IDS}"
+      },
+      "variables": [
+        {
+          "key": "SLACK_BOT_TOKEN",
+          "name": "SLACK_BOT_TOKEN",
+          "description": "xoxb-your-bot-token",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "SLACK_TEAM_ID",
+          "name": "SLACK_TEAM_ID",
+          "description": "T01234567",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "SLACK_CHANNEL_IDS",
+          "name": "SLACK_CHANNEL_IDS",
+          "description": "C01234567, C76543210",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.297Z",
+      "source_hash": "4829a460c1d1f1a20d1ac8d89a9ae433b6aaf82c954896a748afd47fa442e737"
+    },
+    {
+      "id": "mzxrai-mcp-openai",
+      "path": "mzxrai-mcp-openai.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP OpenAI",
+      "description": "Generate text using OpenAI's language models.",
+      "author": "mzxrai",
+      "icon": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_400x400.jpg",
+      "homepage": "https://github.com/mzxrai/mcp-openai",
+      "tags": [
+        "AI增强",
+        "研发提效"
+      ],
+      "category": "ai",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mzxrai/mcp-openai"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "OPENAI_API_KEY",
+          "name": "OPENAI_API_KEY",
+          "description": "your-api-key-here (get one from https://platform.openai.com/api-keys)",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.298Z",
+      "source_hash": "36453687dcdcf7e968b7d33c2101c72411a1d110a50aebaeab70f558ee9fde6f"
+    },
+    {
+      "id": "makenotion-notion-mcp-server",
+      "path": "makenotion-notion-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Notion MCP Server",
+      "description": "Bridges to the Notion API for searching content, querying databases, and managing pages and comments without requiring complex API interaction code",
+      "author": "makenotion",
+      "icon": "https://pbs.twimg.com/profile_images/1903224093476077568/OCclsw4c_400x400.jpg",
+      "homepage": "https://github.com/makenotion/notion-mcp-server",
+      "tags": [
+        "数据库",
+        "搜索检索",
+        "数据访问",
+        "研发提效"
+      ],
+      "category": "database",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@notionhq/notion-mcp-server"
+      ],
+      "env": {
+        "NOTION_TOKEN": "${NOTION_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "NOTION_TOKEN",
+          "name": "NOTION_TOKEN",
+          "description": "Your Notion API token. ntn_****",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.298Z",
+      "source_hash": "02086b7353f085898ceb4215ffa1bee779daf0092fffaf13ed828c0d5ade227f"
+    },
+    {
+      "id": "taazkareem-clickup-mcp-server",
+      "path": "taazkareem-clickup-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "ClickUp MCP Server",
+      "description": "Integrates ClickUp task management with AI systems to enable automated task creation, updates, and retrieval for enhanced project workflow efficiency.",
+      "author": "taazkareem",
+      "icon": "https://clickup.com/assets/brand/logo-v3-clickup-symbol-only.svg",
+      "homepage": "https://github.com/taazkareem/clickup-mcp-server",
+      "tags": [
+        "通信协作",
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@taazkareem/clickup-mcp-server"
+      ],
+      "env": {
+        "CLICKUP_API_KEY": "${CLICKUP_API_KEY}",
+        "CLICKUP_TEAM_ID": "${CLICKUP_TEAM_ID}",
+        "DOCUMENT_SUPPORT": "${DOCUMENT_SUPPORT}"
+      },
+      "variables": [
+        {
+          "key": "CLICKUP_API_KEY",
+          "name": "CLICKUP_API_KEY",
+          "description": "your-api-key",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "CLICKUP_TEAM_ID",
+          "name": "CLICKUP_TEAM_ID",
+          "description": "your-team-id",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DOCUMENT_SUPPORT",
+          "name": "DOCUMENT_SUPPORT",
+          "description": "true",
+          "type": "number",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.298Z",
+      "source_hash": "d380d9ef861f32d9a3b9d7d5ea61c4f4f7183ef55fa1a9ac3553afc96a24b316"
+    },
+    {
+      "id": "smithery-ai-mcp-server-google-analytics",
+      "path": "smithery-ai-mcp-server-google-analytics.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Google-Analytics",
+      "description": "An MCP server implementation for accessing Google Analytics 4 (GA4) data, built using the Model Context Protocol TypeScript SDK.",
+      "author": "smithery-ai",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/GAnalytics.svg/1024px-GAnalytics.svg.png",
+      "homepage": "https://github.com/smithery-ai/mcp-server-google-analytics",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@toolsdk.ai/mcp-server-google-analytics"
+      ],
+      "env": {
+        "GOOGLE_CLIENT_EMAIL": "${GOOGLE_CLIENT_EMAIL}",
+        "GOOGLE_PRIVATE_KEY": "${GOOGLE_PRIVATE_KEY}",
+        "GA_PROPERTY_ID": "${GA_PROPERTY_ID}"
+      },
+      "variables": [
+        {
+          "key": "GOOGLE_CLIENT_EMAIL",
+          "name": "GOOGLE_CLIENT_EMAIL",
+          "description": "your-service-account@project.iam.gserviceaccount.com",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GOOGLE_PRIVATE_KEY",
+          "name": "GOOGLE_PRIVATE_KEY",
+          "description": "your-private-key",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GA_PROPERTY_ID",
+          "name": "GA_PROPERTY_ID",
+          "description": "your-ga4-property-id",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.299Z",
+      "source_hash": "7e48c794b24930312394d12aa0656197037cbeaa19df43f24d7724aefeaafa1f"
+    },
+    {
+      "id": "tsmztech-mcp-server-salesforce",
+      "path": "tsmztech-mcp-server-salesforce.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Salesforce MCP Server",
+      "description": "Integrates with Salesforce CRM for natural language-driven data management, querying, and administration tasks.",
+      "author": "tsmztech",
+      "icon": "https://pbs.twimg.com/profile_images/1268205537637748736/jyoK_62Q_400x400.jpg",
+      "homepage": "https://github.com/tsmztech/mcp-server-salesforce",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@tsmztech/mcp-server-salesforce"
+      ],
+      "env": {
+        "SALESFORCE_CONNECTION_TYPE": "${SALESFORCE_CONNECTION_TYPE}",
+        "SALESFORCE_CLIENT_ID": "${SALESFORCE_CLIENT_ID}",
+        "SALESFORCE_CLIENT_SECRET": "${SALESFORCE_CLIENT_SECRET}",
+        "SALESFORCE_INSTANCE_URL": "${SALESFORCE_INSTANCE_URL}"
+      },
+      "variables": [
+        {
+          "key": "SALESFORCE_CONNECTION_TYPE",
+          "name": "SALESFORCE_CONNECTION_TYPE",
+          "description": "OAuth_2.0_Client_Credentials",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "SALESFORCE_CLIENT_ID",
+          "name": "SALESFORCE_CLIENT_ID",
+          "description": "your_client_id",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "SALESFORCE_CLIENT_SECRET",
+          "name": "SALESFORCE_CLIENT_SECRET",
+          "description": "your_client_secret",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "SALESFORCE_INSTANCE_URL",
+          "name": "SALESFORCE_INSTANCE_URL",
+          "description": "https://your-domain.my.salesforce.com",
+          "type": "url",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.299Z",
+      "source_hash": "92028bf9140a0722f62ed3d12b9852b5ae5a3b1d31d8db18b29a2bdf8dacdc40"
+    },
+    {
+      "id": "floriscornel-teams-mcp",
+      "path": "floriscornel-teams-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Teams MCP",
+      "description": "Integrates with Microsoft Teams through Graph API to search messages, manage chats and channels, send messages, create group chats, and handle user/team operations with device code authentication for secure access.",
+      "author": "floriscornel",
+      "icon": "https://pbs.twimg.com/profile_images/1128330992328921090/nVNqd5QP_400x400.png",
+      "homepage": "https://github.com/floriscornel/teams-mcp",
+      "tags": [
+        "通信协作",
+        "搜索检索",
+        "通信消息",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@floriscornel/teams-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.299Z",
+      "source_hash": "177998dfb8c0dc545f3086b6cb70a0a659b48c2a2a9aee21b5c671e8571db039"
+    },
+    {
+      "id": "shinzo-labs-gmail-mcp",
+      "path": "shinzo-labs-gmail-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Gmail MCP",
+      "description": "Manage your emails effortlessly with a standardized interface for drafting, sending, retrieving, and organizing messages. Streamline your email workflow with complete Gmail API coverage, including label and thread management.",
+      "author": "shinzo-labs",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/1280px-Gmail_icon_%282020%29.svg.png",
+      "homepage": "https://github.com/shinzo-labs/gmail-mcp",
+      "tags": [
+        "通信协作",
+        "通信消息",
+        "研发提效",
+        "AI增强"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@shinzolabs/gmail-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.299Z",
+      "source_hash": "af1705e2d7715e007b94578597a95ef87dcfbf03f56b681802cb296f0010d38e"
+    },
+    {
+      "id": "abhaybabbar-retellai-mcp-server",
+      "path": "abhaybabbar-retellai-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "RetellAI MCP Server",
+      "description": "Integrates with RetellAI's voice services for creating and managing phone conversations, enabling call initiation, agent configuration, and voice selection for tasks like customer service, appointment scheduling, and information gathering.",
+      "author": "abhaybabbar",
+      "icon": "https://github.com/abhaybabbar.png",
+      "homepage": "https://github.com/abhaybabbar/retellai-mcp-server",
+      "tags": [
+        "通信协作",
+        "研发提效",
+        "AI增强"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@abhaybabbar/retellai-mcp-server"
+      ],
+      "env": {
+        "RETELL_API_KEY": "${RETELL_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "RETELL_API_KEY",
+          "name": "RETELL_API_KEY",
+          "description": "<your_retellai_token>",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.299Z",
+      "source_hash": "4500aae7b67492d6f3fc54c542f5070dcd250be53cdfa8957f6740c435e330f0"
+    },
+    {
+      "id": "abhiz123-todoist-mcp-server",
+      "path": "abhiz123-todoist-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Todoist MCP Server",
+      "description": "Create and manage tasks in Todoist through natural language.",
+      "author": "abhiz123",
+      "icon": "https://github.com/abhiz123.png",
+      "homepage": "https://github.com/abhiz123/todoist-mcp-server",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@abhiz123/todoist-mcp-server"
+      ],
+      "env": {
+        "TODOIST_API_TOKEN": "${TODOIST_API_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "TODOIST_API_TOKEN",
+          "name": "TODOIST_API_TOKEN",
+          "description": "your_api_token_here",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.299Z",
+      "source_hash": "65c33aa44c5ffd5369286913cfebf696fa43f47c8454e0afe919002a3eadc6be"
+    },
+    {
+      "id": "adenot-mcp-google-search",
+      "path": "adenot-mcp-google-search.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Google Search MCP",
+      "description": "Integrates Google Custom Search API to enable web searches for fact-checking, research, and content generation tasks.",
+      "author": "adenot",
+      "icon": "https://github.com/adenot.png",
+      "homepage": "https://github.com/adenot/mcp-google-search",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@adenot/mcp-google-search"
+      ],
+      "env": {
+        "GOOGLE_API_KEY": "${GOOGLE_API_KEY}",
+        "GOOGLE_SEARCH_ENGINE_ID": "${GOOGLE_SEARCH_ENGINE_ID}"
+      },
+      "variables": [
+        {
+          "key": "GOOGLE_API_KEY",
+          "name": "GOOGLE_API_KEY",
+          "description": "your-api-key-here",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GOOGLE_SEARCH_ENGINE_ID",
+          "name": "GOOGLE_SEARCH_ENGINE_ID",
+          "description": "your-search-engine-id-here",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.300Z",
+      "source_hash": "61db6d8ec28d151bbfc3e68e53d62914c078772744d6bb541dc9675c6648930b"
+    },
+    {
+      "id": "andradehenrique-dokploy-mcp",
+      "path": "andradehenrique-dokploy-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Dokploy MCP",
+      "description": "Integrates with Dokploy platform API for creating, updating, duplicating, and removing deployment projects, enabling teams to automate deployment workflows through AI interactions.",
+      "author": "andradehenrique",
+      "icon": "https://github.com/andradehenrique.png",
+      "homepage": "https://github.com/andradehenrique/dokploy-mcp",
+      "tags": [
+        "开发工具",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@ahdev/dokploy-mcp"
+      ],
+      "env": {
+        "DOKPLOY_URL": "${DOKPLOY_URL}",
+        "DOKPLOY_API_KEY": "${DOKPLOY_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "DOKPLOY_URL",
+          "name": "DOKPLOY_URL",
+          "description": "https://your-dokploy-server.com/api",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DOKPLOY_API_KEY",
+          "name": "DOKPLOY_API_KEY",
+          "description": "your-dokploy-api-token",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.300Z",
+      "source_hash": "350176132ece0ad375c881799118e6ff1ddcec3fa271b7c3798f877f14022944"
+    },
+    {
+      "id": "apitable-aitable-mcp-server",
+      "path": "apitable-aitable-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "AITable MCP Server",
+      "description": "AITable.ai Model Context Protocol Server enables AI agents to connect and work with AITable datasheets.",
+      "author": "apitable",
+      "icon": "https://github.com/apitable.png",
+      "homepage": "https://github.com/apitable/aitable-mcp-server",
+      "tags": [
+        "AI增强",
+        "研发提效"
+      ],
+      "category": "ai",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apitable/aitable-mcp-server"
+      ],
+      "env": {
+        "AITABLE_API_KEY": "${AITABLE_API_KEY}",
+        "AITABLE_BASE_URL": "${AITABLE_BASE_URL}"
+      },
+      "variables": [
+        {
+          "key": "AITABLE_API_KEY",
+          "name": "AITABLE_API_KEY",
+          "description": "Your AITable personal access token",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "AITABLE_BASE_URL",
+          "name": "AITABLE_BASE_URL",
+          "description": "The base URL of the AITable API. You can set it to your custom base URL if using APITable (the open-source version of AITable)",
+          "type": "url",
+          "required": false,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.301Z",
+      "source_hash": "38b0551d4954f3203cec4970af13cc40ce09d8c2db2bb72d2683920522bb46ca"
+    },
+    {
+      "id": "arize-ai-phoenix",
+      "path": "arize-ai-phoenix.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Phoenix MCP",
+      "description": "Provides a unified interface to Arize Phoenix's capabilities for managing prompts, exploring datasets, and running experiments across different LLM providers",
+      "author": "arize-ai",
+      "icon": "https://github.com/arize-ai.png",
+      "homepage": "https://github.com/arize-ai/phoenix/tree/HEAD/js/packages/phoenix-mcp",
+      "tags": [
+        "AI增强",
+        "研发提效"
+      ],
+      "category": "ai",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@arizeai/phoenix-mcp"
+      ],
+      "env": {
+        "PHOENIX_API_KEY": "${PHOENIX_API_KEY}",
+        "PHOENIX_BASE_URL": "${PHOENIX_BASE_URL}"
+      },
+      "variables": [
+        {
+          "key": "PHOENIX_API_KEY",
+          "name": "PHOENIX_API_KEY",
+          "description": "Your Phoenix API key",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "PHOENIX_BASE_URL",
+          "name": "PHOENIX_BASE_URL",
+          "description": "The base URL for Phoenix",
+          "type": "url",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.301Z",
+      "source_hash": "f61d1fbf79abe2dc3ca4a916c9dc27233c939af3750065675703334de98a452e"
+    },
+    {
+      "id": "ashdevfr-discourse-mcp-server",
+      "path": "ashdevfr-discourse-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Discourse MCP Server",
+      "description": "Enables searching and retrieving content from Discourse forums through a single tool that queries posts using the discourse2 npm package.",
+      "author": "ashdevfr",
+      "icon": "https://github.com/ashdevfr.png",
+      "homepage": "https://github.com/ashdevfr/discourse-mcp-server",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@ashdev/discourse-mcp-server"
+      ],
+      "env": {
+        "DISCOURSE_API_URL": "${DISCOURSE_API_URL}",
+        "DISCOURSE_API_KEY": "${DISCOURSE_API_KEY}",
+        "DISCOURSE_API_USERNAME": "${DISCOURSE_API_USERNAME}"
+      },
+      "variables": [
+        {
+          "key": "DISCOURSE_API_URL",
+          "name": "DISCOURSE_API_URL",
+          "description": "https://try.discourse.org",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DISCOURSE_API_KEY",
+          "name": "DISCOURSE_API_KEY",
+          "description": "1234",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DISCOURSE_API_USERNAME",
+          "name": "DISCOURSE_API_USERNAME",
+          "description": "ash",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.301Z",
+      "source_hash": "f856f49f5fac9e7d31b4417edec019dd6745369bdaa37e02809cdbc53dbee1f1"
+    },
+    {
+      "id": "baidu-maps-mcp",
+      "path": "baidu-maps-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Baidu Maps MCP Server",
+      "description": "Integrates with Baidu Maps API for location-based operations including geocoding, route planning, and location search within the Baidu Maps ecosystem.",
+      "author": "baidu-maps",
+      "icon": "https://github.com/baidu-maps.png",
+      "homepage": "https://github.com/baidu-maps/mcp",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@baidumap/mcp-server-baidu-map"
+      ],
+      "env": {
+        "BAIDU_MAP_API_KEY": "${BAIDU_MAP_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "BAIDU_MAP_API_KEY",
+          "name": "BAIDU_MAP_API_KEY",
+          "description": "<YOUR_API_KEY>",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.301Z",
+      "source_hash": "f22c10e072de432cf8e47a2e519eeb61209ded9961e7793fbb9845e5007435de"
+    },
+    {
+      "id": "baruchiro-paperless-mcp",
+      "path": "baruchiro-paperless-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Paperless MCP",
+      "description": "Enables AI to interact with Paperless-NGX document management systems for organizing, searching, and managing document collections through natural language commands.",
+      "author": "baruchiro",
+      "icon": "https://github.com/baruchiro.png",
+      "homepage": "https://github.com/baruchiro/paperless-mcp",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@baruchiro/paperless-mcp"
+      ],
+      "env": {
+        "PAPERLESS_URL": "${PAPERLESS_URL}",
+        "PAPERLESS_API_KEY": "${PAPERLESS_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "PAPERLESS_URL",
+          "name": "PAPERLESS_URL",
+          "description": "http://your-paperless-instance:8000",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "PAPERLESS_API_KEY",
+          "name": "PAPERLESS_API_KEY",
+          "description": "your-api-token",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.301Z",
+      "source_hash": "1e43c6887296ea7fa61bf5145e9fa6169782621ed379bd1ca6ebf11de59be0ab"
+    },
+    {
+      "id": "cablate-mcp-google-map",
+      "path": "cablate-mcp-google-map.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Google Map MCP",
+      "description": "Integrates with Google Maps API to enable location-based operations like place searching, geocoding, and geographical information retrieval within conversations.",
+      "author": "cablate",
+      "icon": "https://github.com/cablate.png",
+      "homepage": "https://github.com/cablate/mcp-google-map",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cablate/mcp-google-map"
+      ],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "GOOGLE_MAPS_API_KEY",
+          "name": "GOOGLE_MAPS_API_KEY",
+          "description": "your_api_key",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.302Z",
+      "source_hash": "04ad8d4d5effc322d215d49a804cc5aecc161a1993d9c3db947957fca42690ef"
+    },
+    {
+      "id": "chanmeng666-server-google-news",
+      "path": "chanmeng666-server-google-news.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Google News MCP Server",
+      "description": "MCP server for Google News search via SerpAPI",
+      "author": "ChanMeng666",
+      "icon": "https://github.com/ChanMeng666.png",
+      "homepage": "https://github.com/ChanMeng666/server-google-news",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@chanmeng666/google-news-server"
+      ],
+      "env": {
+        "SERP_API_KEY": "${SERP_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "SERP_API_KEY",
+          "name": "SERP_API_KEY",
+          "description": "API key for Google News search",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.302Z",
+      "source_hash": "982376480447a05f1046578b8ac2276d63fe67e90d008b16ede4ec560f17643e"
+    },
+    {
+      "id": "clay-inc-clay-mcp",
+      "path": "clay-inc-clay-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Clay MCP",
+      "description": "Provides a bridge to Clay's personal CRM platform for searching, retrieving, and managing contact information, interactions, and professional relationships through natural language queries.",
+      "author": "clay-inc",
+      "icon": "https://github.com/clay-inc.png",
+      "homepage": "https://github.com/clay-inc/clay-mcp",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@clayhq/clay-mcp"
+      ],
+      "env": {
+        "CLAY_API_KEY": "${CLAY_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "CLAY_API_KEY",
+          "name": "CLAY_API_KEY",
+          "description": "YOUR_CLAY_API_KEY",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.302Z",
+      "source_hash": "9a9d0adb0bc597e7c08495bf827cbba86bb3176ea65068b91ba4d5683e36e87d"
+    },
+    {
+      "id": "cloudwerx-dev-gpt-image-1-mcp",
+      "path": "cloudwerx-dev-gpt-image-1-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "GPT Image 1 MCP",
+      "description": "Enables direct image generation and editing through OpenAI's gpt-image-1 model with support for text prompts, file paths, and base64 encoded inputs for creative workflows and visual content creation.",
+      "author": "cloudwerx-dev",
+      "icon": "https://github.com/cloudwerx-dev.png",
+      "homepage": "https://github.com/cloudwerx-dev/gpt-image-1-mcp",
+      "tags": [
+        "文件处理",
+        "文档处理",
+        "研发提效",
+        "AI增强"
+      ],
+      "category": "filesystem",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cloudwerxlab/gpt-image-1-mcp"
+      ],
+      "env": {
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "GPT_IMAGE_OUTPUT_DIR": "${GPT_IMAGE_OUTPUT_DIR}"
+      },
+      "variables": [
+        {
+          "key": "OPENAI_API_KEY",
+          "name": "OPENAI_API_KEY",
+          "description": "PASTE YOUR OPEN-AI KEY HERE",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GPT_IMAGE_OUTPUT_DIR",
+          "name": "GPT_IMAGE_OUTPUT_DIR",
+          "description": "OPTIONAL: PATH TO SAVE GENERATED IMAGES",
+          "type": "path",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.302Z",
+      "source_hash": "f2e80716002d58baa5b2a292310039d45dbfc0b4ec487ee73278b48b3d2d20b4"
+    },
+    {
+      "id": "pixdataorg-coderide-mcp",
+      "path": "pixdataorg-coderide-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "CodeRide MCP",
+      "description": "Integrates with CodeRide's task management platform to provide project retrieval, task operations, prompt extraction, and project initialization with knowledge graphs and Mermaid diagrams for development workflows.",
+      "author": "pixdataorg",
+      "icon": "https://github.com/pixdataorg.png",
+      "homepage": "https://github.com/pixdataorg/coderide-mcp",
+      "tags": [
+        "开发工具",
+        "搜索检索",
+        "研发提效",
+        "知识管理"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@coderide/mcp"
+      ],
+      "env": {
+        "CODERIDE_API_KEY": "${CODERIDE_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "CODERIDE_API_KEY",
+          "name": "CODERIDE_API_KEY",
+          "description": "YOUR_CODERIDE_API_KEY_HERE",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.302Z",
+      "source_hash": "86b197fa0267cffb26de16d350a9d1f0ac26ce6a75063e3898ee79f29b5d08e8"
+    },
+    {
+      "id": "cristip73-mcp-server-asana",
+      "path": "cristip73-mcp-server-asana.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Asana MCP Server",
+      "description": "Integrates with Asana's API to enable task management, project organization, and collaboration workflows through 30+ tools for searching, creating, and visualizing projects and tasks.",
+      "author": "cristip73",
+      "icon": "https://github.com/cristip73.png",
+      "homepage": "https://github.com/cristip73/mcp-server-asana",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cristip73/mcp-server-asana"
+      ],
+      "env": {
+        "ASANA_ACCESS_TOKEN": "${ASANA_ACCESS_TOKEN}",
+        "DEFAULT_WORKSPACE_ID": "${DEFAULT_WORKSPACE_ID}"
+      },
+      "variables": [
+        {
+          "key": "ASANA_ACCESS_TOKEN",
+          "name": "ASANA_ACCESS_TOKEN",
+          "description": "your-asana-access-token",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DEFAULT_WORKSPACE_ID",
+          "name": "DEFAULT_WORKSPACE_ID",
+          "description": "your-default-workspace-id",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.303Z",
+      "source_hash": "8da0e59aaa12c0831550ea7a8d761a7f145a2593688dd4cb6e8ae84efdfaf310"
+    },
+    {
+      "id": "currents-dev-currents-mcp",
+      "path": "currents-dev-currents-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Currents MCP",
+      "description": "Provides a bridge to Currents test results platform, enabling AI to analyze failing tests, optimize test suites, and troubleshoot CI/CD pipeline issues through direct access to test execution data.",
+      "author": "currents-dev",
+      "icon": "https://github.com/currents-dev.png",
+      "homepage": "https://github.com/currents-dev/currents-mcp",
+      "tags": [
+        "开发工具",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@currents/mcp"
+      ],
+      "env": {
+        "CURRENTS_API_KEY": "${CURRENTS_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "CURRENTS_API_KEY",
+          "name": "CURRENTS_API_KEY",
+          "description": "your-api-key",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.303Z",
+      "source_hash": "939fc808b7673463f710ea2f8b898610507519296662c51fd8f4f63a5e63405c"
+    },
+    {
+      "id": "cyanheads-pubmed-mcp-server",
+      "path": "cyanheads-pubmed-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "PubMed MCP Server",
+      "description": "Enables AI systems to search, retrieve, and analyze biomedical literature from PubMed for evidence-based research, citation generation, and data visualization",
+      "author": "cyanheads",
+      "icon": "https://github.com/cyanheads.png",
+      "homepage": "https://github.com/cyanheads/pubmed-mcp-server",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cyanheads/pubmed-mcp-server"
+      ],
+      "env": {
+        "NCBI_API_KEY": "${NCBI_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "NCBI_API_KEY",
+          "name": "NCBI_API_KEY",
+          "description": "your_ncbi_api_key_here",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.303Z",
+      "source_hash": "39ad595d7cec56a6d1ca9d6efaf9a4b2e4415eebc8162627934fbd03ed6d407f"
+    },
+    {
+      "id": "cyanheads-toolkit-mcp-server",
+      "path": "cyanheads-toolkit-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Toolkit MCP Server",
+      "description": "Provides system utilities and tools for network diagnostics, monitoring, cryptography, and QR code generation.",
+      "author": "cyanheads",
+      "icon": "https://github.com/cyanheads.png",
+      "homepage": "https://github.com/cyanheads/toolkit-mcp-server",
+      "tags": [
+        "开发工具",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@cyanheads/toolkit-mcp-server"
+      ],
+      "env": {
+        "NODE_ENV": "${NODE_ENV}"
+      },
+      "variables": [
+        {
+          "key": "NODE_ENV",
+          "name": "NODE_ENV",
+          "description": "production",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.303Z",
+      "source_hash": "f6dc6c7519f6fba80e8a14418b7a228d642bdd25794fe5969dd1ed722010dd52"
+    },
+    {
+      "id": "debugg-ai-debugg-ai-mcp",
+      "path": "debugg-ai-debugg-ai-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Debugg AI MCP",
+      "description": "Provides zero-configuration end-to-end testing for web applications by creating secure tunnels to local development servers and spawning testing agents that interact with web interfaces through natural language descriptions, returning detailed test results with execution recordings and screenshots.",
+      "author": "debugg-ai",
+      "icon": "https://github.com/debugg-ai.png",
+      "homepage": "https://github.com/debugg-ai/debugg-ai-mcp",
+      "tags": [
+        "浏览器自动化",
+        "研发提效",
+        "AI增强"
+      ],
+      "category": "browser",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@debugg-ai/debugg-ai-mcp"
+      ],
+      "env": {
+        "DEBUGGAI_API_KEY": "${DEBUGGAI_API_KEY}",
+        "TEST_USERNAME_EMAIL": "${TEST_USERNAME_EMAIL}",
+        "TEST_USER_PASSWORD": "${TEST_USER_PASSWORD}",
+        "DEBUGGAI_LOCAL_REPO_NAME": "${DEBUGGAI_LOCAL_REPO_NAME}",
+        "DEBUGGAI_LOCAL_BRANCH_NAME": "${DEBUGGAI_LOCAL_BRANCH_NAME}",
+        "DEBUGGAI_LOCAL_REPO_PATH": "${DEBUGGAI_LOCAL_REPO_PATH}",
+        "DEBUGGAI_LOCAL_FILE_PATH": "${DEBUGGAI_LOCAL_FILE_PATH}"
+      },
+      "variables": [
+        {
+          "key": "DEBUGGAI_API_KEY",
+          "name": "DEBUGGAI_API_KEY",
+          "description": "YOUR_API_KEY",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "TEST_USERNAME_EMAIL",
+          "name": "TEST_USERNAME_EMAIL",
+          "description": "test@example.com",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "TEST_USER_PASSWORD",
+          "name": "TEST_USER_PASSWORD",
+          "description": "supersecure",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DEBUGGAI_LOCAL_REPO_NAME",
+          "name": "DEBUGGAI_LOCAL_REPO_NAME",
+          "description": "org/project",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DEBUGGAI_LOCAL_BRANCH_NAME",
+          "name": "DEBUGGAI_LOCAL_BRANCH_NAME",
+          "description": "main",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DEBUGGAI_LOCAL_REPO_PATH",
+          "name": "DEBUGGAI_LOCAL_REPO_PATH",
+          "description": "/Users/you/project",
+          "type": "path",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DEBUGGAI_LOCAL_FILE_PATH",
+          "name": "DEBUGGAI_LOCAL_FILE_PATH",
+          "description": "/Users/you/project/index.ts",
+          "type": "path",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.303Z",
+      "source_hash": "13f5259f019809244fb5ab04262d6a50196dc109afa5db84750bd6405dd5ff5e"
+    },
+    {
+      "id": "deventerprisesoftware-scrapi-mcp",
+      "path": "deventerprisesoftware-scrapi-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Scrapi MCP",
+      "description": "Enables web scraping from sites with bot detection, captchas, or geolocation restrictions through residential proxies and automated captcha solving for content extraction in HTML or Markdown formats.",
+      "author": "deventerprisesoftware",
+      "icon": "https://github.com/deventerprisesoftware.png",
+      "homepage": "https://github.com/deventerprisesoftware/scrapi-mcp",
+      "tags": [
+        "文件处理",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "filesystem",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@deventerprisesoftware/scrapi-mcp"
+      ],
+      "env": {
+        "SCRAPI_API_KEY": "${SCRAPI_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "SCRAPI_API_KEY",
+          "name": "SCRAPI_API_KEY",
+          "description": "<YOUR_API_KEY>",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.303Z",
+      "source_hash": "5d77bb1d2b9045f71af52e0fccb473371dc9d359d88d8857b3d8e88f4c7ffced"
+    },
+    {
+      "id": "digitalocean-digitalocean-mcp",
+      "path": "digitalocean-digitalocean-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "DigitalOcean MCP",
+      "description": "Integrates with DigitalOcean's cloud platform API to enable management of cloud resources, deployment of applications, and monitoring of infrastructure through natural language commands.",
+      "author": "digitalocean",
+      "icon": "https://github.com/digitalocean.png",
+      "homepage": "https://github.com/digitalocean/digitalocean-mcp",
+      "tags": [
+        "实用工具",
+        "研发提效",
+        "云服务"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@digitalocean/mcp"
+      ],
+      "env": {
+        "DIGITALOCEAN_API_TOKEN": "${DIGITALOCEAN_API_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "DIGITALOCEAN_API_TOKEN",
+          "name": "DIGITALOCEAN_API_TOKEN",
+          "description": "YOUR_DO_TOKEN",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.303Z",
+      "source_hash": "34eac2fd02a88e71ed6d239d707ccc1abefd84d1cef1149c2d3c6cc7ceec67d2"
+    },
+    {
+      "id": "felixallistar-coolify-mcp",
+      "path": "felixallistar-coolify-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Coolify MCP",
+      "description": "Integrates with Coolify's deployment platform to manage self-hosted applications, databases, and infrastructure including 110+ one-click services, 8 database types, server connectivity validation, and environment variable handling.",
+      "author": "felixallistar",
+      "icon": "https://github.com/felixallistar.png",
+      "homepage": "https://github.com/felixallistar/coolify-mcp",
+      "tags": [
+        "实用工具",
+        "数据访问",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@felixallistar/coolify-mcp"
+      ],
+      "env": {
+        "COOLIFY_API_URL": "${COOLIFY_API_URL}",
+        "COOLIFY_API_TOKEN": "${COOLIFY_API_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "COOLIFY_API_URL",
+          "name": "COOLIFY_API_URL",
+          "description": "https://your-coolify-instance.com",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "COOLIFY_API_TOKEN",
+          "name": "COOLIFY_API_TOKEN",
+          "description": "your-coolify-api-token",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.304Z",
+      "source_hash": "439b82527b1abd16720f9f9001e9d7631f3e3765c12e35c64844de1c8a2765f9"
+    },
+    {
+      "id": "gongrzhe-travel-planner-mcp-server",
+      "path": "gongrzhe-travel-planner-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Travel Planner MCP Server",
+      "description": "Integrates with Google Maps to enable AI-driven travel planning, itinerary optimization, and location-based services for automated trip management.",
+      "author": "gongrzhe",
+      "icon": "https://github.com/gongrzhe.png",
+      "homepage": "https://github.com/gongrzhe/travel-planner-mcp-server",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@gongrzhe/server-travelplanner-mcp"
+      ],
+      "env": {
+        "GOOGLE_MAPS_API_KEY": "${GOOGLE_MAPS_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "GOOGLE_MAPS_API_KEY",
+          "name": "GOOGLE_MAPS_API_KEY",
+          "description": "your_api_key_here",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.304Z",
+      "source_hash": "acaeaa3a86c2605536881f0d0113a6373a08f751e2d14e31f31381c464564ece"
+    },
+    {
+      "id": "growthbook-growthbook-mcp",
+      "path": "growthbook-growthbook-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "GrowthBook MCP",
+      "description": "Enables AI to manage feature flags, experiments, environments, and SDK connections in GrowthBook, providing tools for searching documentation, creating targeting rules, and generating implementation code for various programming languages.",
+      "author": "growthbook",
+      "icon": "https://github.com/growthbook.png",
+      "homepage": "https://github.com/growthbook/growthbook-mcp",
+      "tags": [
+        "开发工具",
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@growthbook/mcp"
+      ],
+      "env": {
+        "GB_API_KEY": "${GB_API_KEY}",
+        "GB_API_URL": "${GB_API_URL}",
+        "GB_APP_ORIGIN": "${GB_APP_ORIGIN}",
+        "GB_USER": "${GB_USER}"
+      },
+      "variables": [
+        {
+          "key": "GB_API_KEY",
+          "name": "GB_API_KEY",
+          "description": "YOUR_API_KEY",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GB_API_URL",
+          "name": "GB_API_URL",
+          "description": "YOUR_API_URL",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GB_APP_ORIGIN",
+          "name": "GB_APP_ORIGIN",
+          "description": "YOUR_APP_ORIGIN",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GB_USER",
+          "name": "GB_USER",
+          "description": "YOUR_NAME",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.304Z",
+      "source_hash": "1bcc05d6ffc26bf7528e3a09161f961d031c8b6d2c2a70f40c92449485263412"
+    },
+    {
+      "id": "hiyorineko-mcp-rollbar-server",
+      "path": "hiyorineko-mcp-rollbar-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Rollbar MCP Server",
+      "description": "Provides a bridge to Rollbar error tracking platform for monitoring and analyzing application errors, retrieving detailed information, managing projects, and tracking deployments.",
+      "author": "hiyorineko",
+      "icon": "https://github.com/hiyorineko.png",
+      "homepage": "https://github.com/hiyorineko/mcp-rollbar-server",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@hiyorineko/mcp-rollbar-server"
+      ],
+      "env": {
+        "ROLLBAR_PROJECT_TOKEN": "${ROLLBAR_PROJECT_TOKEN}",
+        "ROLLBAR_ACCOUNT_TOKEN": "${ROLLBAR_ACCOUNT_TOKEN}",
+        "ROLLBAR_PROJECT_ID": "${ROLLBAR_PROJECT_ID}",
+        "ROLLBAR_PROJECT_NAME": "${ROLLBAR_PROJECT_NAME}"
+      },
+      "variables": [
+        {
+          "key": "ROLLBAR_PROJECT_TOKEN",
+          "name": "ROLLBAR_PROJECT_TOKEN",
+          "description": "YOUR_PROJECT_ACCESS_TOKEN",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ROLLBAR_ACCOUNT_TOKEN",
+          "name": "ROLLBAR_ACCOUNT_TOKEN",
+          "description": "YOUR_ACCOUNT_ACCESS_TOKEN",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ROLLBAR_PROJECT_ID",
+          "name": "ROLLBAR_PROJECT_ID",
+          "description": "YOUR_PROJECT_ID",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ROLLBAR_PROJECT_NAME",
+          "name": "ROLLBAR_PROJECT_NAME",
+          "description": "YOUR_PROJECT_NAME",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.304Z",
+      "source_hash": "f06925df9a37693bc969c3f31aa7ddef479f8411b179ff4d4a271e0b2f3fcf97"
+    },
+    {
+      "id": "hubspot-mcp-server",
+      "path": "hubspot-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "HubSpot MCP Server",
+      "description": "Integrates with HubSpot CRM to enable secure access to contact information, company records, deal data, and task management with customizable data access through Private App scopes.",
+      "author": "hubspot",
+      "icon": "https://github.com/hubspot.png",
+      "homepage": "https://github.com/hubspot/mcp-server",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@hubspot/mcp-server"
+      ],
+      "env": {
+        "PRIVATE_APP_ACCESS_TOKEN": "${PRIVATE_APP_ACCESS_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "PRIVATE_APP_ACCESS_TOKEN",
+          "name": "PRIVATE_APP_ACCESS_TOKEN",
+          "description": "<your-private-app-access-token>",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.304Z",
+      "source_hash": "b6df0fc18f2280cf97f253324c5cae15de10385e937510f16fdf56dfe3927dae"
+    },
+    {
+      "id": "intounknown-mcp-bocha",
+      "path": "intounknown-mcp-bocha.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Bocha MCP Server",
+      "description": "Enables AI to perform web searches with customizable parameters including freshness filters, domain controls, and result summarization for retrieving up-to-date information from the internet.",
+      "author": "intounknown",
+      "icon": "https://github.com/intounknown.png",
+      "homepage": "https://github.com/intounknown/mcp-bocha",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@humansean/mcp-bocha"
+      ],
+      "env": {
+        "BOCHA_API_KEY": "${BOCHA_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "BOCHA_API_KEY",
+          "name": "BOCHA_API_KEY",
+          "description": "YOUR_API_KEY",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.304Z",
+      "source_hash": "651e010d031e85f7f1cc2ad3e9e6a5788018d77decb664d17cf1f06dddf4656e"
+    },
+    {
+      "id": "illuminaresolutions-n8n-mcp-server",
+      "path": "illuminaresolutions-n8n-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "n8n MCP Server",
+      "description": "Bridges Claude with n8n automation workflows, enabling direct creation, execution, and management of workflows, credentials, and enterprise features without switching contexts.",
+      "author": "illuminaresolutions",
+      "icon": "https://github.com/illuminaresolutions.png",
+      "homepage": "https://github.com/illuminaresolutions/n8n-mcp-server",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@illuminaresolutions/n8n-mcp-server"
+      ],
+      "env": {
+        "N8N_HOST": "${N8N_HOST}",
+        "N8N_API_KEY": "${N8N_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "N8N_HOST",
+          "name": "N8N_HOST",
+          "description": "https://your-n8n-instance.com",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "N8N_API_KEY",
+          "name": "N8N_API_KEY",
+          "description": "your-api-key-here",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "63ffb671deaf9a366a5369c5c30ee3039f863d6358151be43820af9c380d1a52"
+    },
+    {
+      "id": "inkdropapp-mcp-server",
+      "path": "inkdropapp-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Server",
+      "description": "Integrates with Inkdrop's note-taking application to enable searching, reading, creating, and updating Markdown notes directly within conversations through seven specialized tools for managing notes, notebooks, and tags.",
+      "author": "inkdropapp",
+      "icon": "https://github.com/inkdropapp.png",
+      "homepage": "https://github.com/inkdropapp/mcp-server",
+      "tags": [
+        "文件处理",
+        "搜索检索",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "filesystem",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@inkdropapp/mcp-server"
+      ],
+      "env": {
+        "INKDROP_LOCAL_SERVER_URL": "${INKDROP_LOCAL_SERVER_URL}",
+        "INKDROP_LOCAL_USERNAME": "${INKDROP_LOCAL_USERNAME}",
+        "INKDROP_LOCAL_PASSWORD": "${INKDROP_LOCAL_PASSWORD}"
+      },
+      "variables": [
+        {
+          "key": "INKDROP_LOCAL_SERVER_URL",
+          "name": "INKDROP_LOCAL_SERVER_URL",
+          "description": "http://localhost:19840",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "INKDROP_LOCAL_USERNAME",
+          "name": "INKDROP_LOCAL_USERNAME",
+          "description": "your-local-server-username",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "INKDROP_LOCAL_PASSWORD",
+          "name": "INKDROP_LOCAL_PASSWORD",
+          "description": "your-local-server-password",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "e468581dded33eb6dad4e7fc5093163d455cab6f6893780812c42bf808109fde"
+    },
+    {
+      "id": "itseasy21-mcp-knowledge-graph",
+      "path": "itseasy21-mcp-knowledge-graph.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Knowledge Graph",
+      "description": "Provides persistent memory for Claude through a local knowledge graph that stores entities with observations and relations, enabling structured information retrieval and complex context retention across conversations.",
+      "author": "itseasy21",
+      "icon": "https://github.com/itseasy21.png",
+      "homepage": "https://github.com/itseasy21/mcp-knowledge-graph",
+      "tags": [
+        "记忆知识",
+        "搜索检索",
+        "研发提效",
+        "知识管理"
+      ],
+      "category": "memory",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@itseasy21/mcp-knowledge-graph"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "${MEMORY_FILE_PATH}"
+      },
+      "variables": [
+        {
+          "key": "MEMORY_FILE_PATH",
+          "name": "MEMORY_FILE_PATH",
+          "description": "/path/to/your/projects.jsonl",
+          "type": "path",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "1c66aabda04e78da89b2db710cb4f37cd2b6828c76b9304c37db9e1d65eeb58e"
+    },
+    {
+      "id": "ivo-toby-contentful-mcp",
+      "path": "ivo-toby-contentful-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Contentful MCP Server",
+      "description": "Integrate with Contentful's Content Management API for CMS management.",
+      "author": "ivo-toby",
+      "icon": "https://github.com/ivo-toby.png",
+      "homepage": "https://github.com/ivo-toby/contentful-mcp",
+      "tags": [
+        "开发工具",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@ivotoby/contentful-management-mcp-server"
+      ],
+      "env": {
+        "CONTENTFUL_MANAGEMENT_ACCESS_TOKEN": "${CONTENTFUL_MANAGEMENT_ACCESS_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "CONTENTFUL_MANAGEMENT_ACCESS_TOKEN",
+          "name": "CONTENTFUL_MANAGEMENT_ACCESS_TOKEN",
+          "description": "<Your CMA token>",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "9479a3ad8a780e67e4a6bfbe1ffbd74909a7ddcb47fc666df9557f9653025dd5"
+    },
+    {
+      "id": "thirdstrandstudio-mcp-figma",
+      "path": "thirdstrandstudio-mcp-figma.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "MCP Figma",
+      "description": "Integrates with Figma's API to enable viewing, manipulating, and collaborating on design files through comprehensive access to file operations, comments, components, and team resources.",
+      "author": "thirdstrandstudio",
+      "icon": "https://github.com/thirdstrandstudio.png",
+      "homepage": "https://github.com/thirdstrandstudio/mcp-figma",
+      "tags": [
+        "文件处理",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "filesystem",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jayarrowz/mcp-figma"
+      ],
+      "env": {
+        "FIGMA_API_KEY": "${FIGMA_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "FIGMA_API_KEY",
+          "name": "FIGMA_API_KEY",
+          "description": "your_figma_api_key",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "c7645cb8de8a864d663d090fafd3f28e324a5702de4f3eb90de3febfa6c383dd"
+    },
+    {
+      "id": "joshuarileydev-supabase-mcp-server",
+      "path": "joshuarileydev-supabase-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Supabase MCP Server",
+      "description": "Control Supabase projects and organizations.",
+      "author": "joshuarileydev",
+      "icon": "https://github.com/joshuarileydev.png",
+      "homepage": "https://github.com/joshuarileydev/supabase-mcp-server",
+      "tags": [
+        "数据库",
+        "研发提效"
+      ],
+      "category": "database",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@joshuarileydev/supabase-mcp-server"
+      ],
+      "env": {
+        "SUPABASE_API_KEY": "${SUPABASE_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "SUPABASE_API_KEY",
+          "name": "SUPABASE_API_KEY",
+          "description": "API_KEY_HERE",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "9b312870886668dd6286463d22e001b0afe29cb336d9a461978304c4781c590e"
+    },
+    {
+      "id": "jpisnice-shadcn-ui-mcp-server",
+      "path": "jpisnice-shadcn-ui-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Shadcn UI v4 MCP Server",
+      "description": "A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation",
+      "author": "Jpisnice",
+      "icon": "https://github.com/Jpisnice.png",
+      "homepage": "https://github.com/Jpisnice/shadcn-ui-mcp-server",
+      "tags": [
+        "开发工具",
+        "研发提效",
+        "AI增强"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jpisnice/shadcn-ui-mcp-server"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "name": "GITHUB_PERSONAL_ACCESS_TOKEN",
+          "description": "GitHub Personal Access Token for higher rate limits (5000 requests/hour instead of 60 requests/hour)",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "05624f25404a50b494b3ac6292f00ff90df3c826b5e697f434b8025800b2f93f"
+    },
+    {
+      "id": "jsonresume-mcp",
+      "path": "jsonresume-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "JSON Resume MCP",
+      "description": "Enhances JSON Resumes with GitHub project information by analyzing codebases, fetching existing resumes, and intelligently updating profiles with relevant project details using OpenAI's API.",
+      "author": "jsonresume",
+      "icon": "https://github.com/jsonresume.png",
+      "homepage": "https://github.com/jsonresume/mcp",
+      "tags": [
+        "开发工具",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@jsonresume/mcp"
+      ],
+      "env": {
+        "GITHUB_TOKEN": "${GITHUB_TOKEN}",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "GITHUB_USERNAME": "${GITHUB_USERNAME}"
+      },
+      "variables": [
+        {
+          "key": "GITHUB_TOKEN",
+          "name": "GITHUB_TOKEN",
+          "description": "your-github-token",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "OPENAI_API_KEY",
+          "name": "OPENAI_API_KEY",
+          "description": "your-openai-api-key",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "GITHUB_USERNAME",
+          "name": "GITHUB_USERNAME",
+          "description": "your-github-username",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "03f22718b263ffc17dbc88b6afa5d34555555af6d78daa5919d0841cd4fd95e7"
+    },
+    {
+      "id": "kailashappdev-figma-mcp-toolkit",
+      "path": "kailashappdev-figma-mcp-toolkit.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Figma MCP Toolkit",
+      "description": "Extracts and analyzes components from Figma design files, enabling seamless integration between Figma designs and React Native development through component hierarchy processing and metadata generation.",
+      "author": "kailashappdev",
+      "icon": "https://github.com/kailashappdev.png",
+      "homepage": "https://github.com/kailashappdev/figma-mcp-toolkit",
+      "tags": [
+        "开发工具",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kailashg101/mcp-figma-to-code"
+      ],
+      "env": {
+        "FIGMA_TOKEN": "${FIGMA_TOKEN}",
+        "FIGMA_FILE": "${FIGMA_FILE}",
+        "PROJECT_DIR": "${PROJECT_DIR}"
+      },
+      "variables": [
+        {
+          "key": "FIGMA_TOKEN",
+          "name": "FIGMA_TOKEN",
+          "description": "your_figma_token",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "FIGMA_FILE",
+          "name": "FIGMA_FILE",
+          "description": "your_figma_file_id",
+          "type": "path",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "PROJECT_DIR",
+          "name": "PROJECT_DIR",
+          "description": "your_project_directory",
+          "type": "path",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "ee7405280b6a5988f62a292cd8b61a38542ce07caf425840203107e7a6f8d339"
+    },
+    {
+      "id": "kajirita2002-honeycomb-mcp-server",
+      "path": "kajirita2002-honeycomb-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Honeycomb MCP Server",
+      "description": "Provides a direct TypeScript-based interface for interacting with Honeycomb's observability API, enabling developers to query, create, and manage datasets, events, and monitoring resources through natural language interaction.",
+      "author": "kajirita2002",
+      "icon": "https://github.com/kajirita2002.png",
+      "homepage": "https://github.com/kajirita2002/honeycomb-mcp-server",
+      "tags": [
+        "实用工具",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kajirita2002/honeycomb-mcp-server"
+      ],
+      "env": {
+        "HONEYCOMB_API_KEY": "${HONEYCOMB_API_KEY}"
+      },
+      "variables": [
+        {
+          "key": "HONEYCOMB_API_KEY",
+          "name": "HONEYCOMB_API_KEY",
+          "description": "your_honeycomb_api_key",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.305Z",
+      "source_hash": "2ae69ebbebbf9e39c33f515c384e6faa1549ed08f93208f2b17794dc5baf98dc"
+    },
+    {
+      "id": "keegancsmith-linear-issues-mcp-server",
+      "path": "keegancsmith-linear-issues-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Linear Issues MCP Server",
+      "description": "Integrates with Linear issue tracking to provide read-only access to issue details and comments without switching contexts.",
+      "author": "keegancsmith",
+      "icon": "https://github.com/keegancsmith.png",
+      "homepage": "https://github.com/keegancsmith/linear-issues-mcp-server",
+      "tags": [
+        "AI增强",
+        "研发提效"
+      ],
+      "category": "ai",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@keegancsmith/linear-issues-mcp-server"
+      ],
+      "env": {
+        "LINEAR_API_TOKEN": "${LINEAR_API_TOKEN}"
+      },
+      "variables": [
+        {
+          "key": "LINEAR_API_TOKEN",
+          "name": "LINEAR_API_TOKEN",
+          "description": "your_linear_api_token_here",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.306Z",
+      "source_hash": "e6be22355cf4f36e231c8c224a152a60fbf921809dd2ea0b16c774dc3671243a"
+    },
+    {
+      "id": "kevinwatt-mcp-server-searxng",
+      "path": "kevinwatt-mcp-server-searxng.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "SearXNG MCP Server",
+      "description": "Integrates SearXNG's meta-search capabilities to provide privacy-focused, customizable search results from multiple engines for diverse information retrieval scenarios.",
+      "author": "kevinwatt",
+      "icon": "https://github.com/kevinwatt.png",
+      "homepage": "https://github.com/kevinwatt/mcp-server-searxng",
+      "tags": [
+        "搜索检索",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kevinwatt/mcp-server-searxng"
+      ],
+      "env": {
+        "SEARXNG_INSTANCES": "${SEARXNG_INSTANCES}",
+        "SEARXNG_USER_AGENT": "${SEARXNG_USER_AGENT}",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "${NODE_TLS_REJECT_UNAUTHORIZED}"
+      },
+      "variables": [
+        {
+          "key": "SEARXNG_INSTANCES",
+          "name": "SEARXNG_INSTANCES",
+          "description": "http://localhost:8080,https://searx.example.com",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "SEARXNG_USER_AGENT",
+          "name": "SEARXNG_USER_AGENT",
+          "description": "CustomBot/1.0",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "NODE_TLS_REJECT_UNAUTHORIZED",
+          "name": "NODE_TLS_REJECT_UNAUTHORIZED",
+          "description": "0",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T09:21:24.306Z",
+      "source_hash": "99d0c775f63171def06e9a58234db9c6241f9d03b8652f239c543da51a021ff3"
+    },
+    {
+      "id": "open-dingtalk-dingtalk-mcp",
+      "path": "open-dingtalk-dingtalk-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "DingTalk MCP",
+      "description": "DingTalk MCP Server - A TypeScript-based MCP server for DingTalk integration",
+      "author": "open-dingtalk",
+      "icon": "https://github.com/open-dingtalk.png",
+      "homepage": "https://open.dingtalk.com/document/ai-dev/dingtalk-server-api-mcp-overview",
+      "tags": [
+        "通信协作",
+        "通信消息",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "dingtalk-mcp"
+      ],
+      "env": {
+        "ROBOT_CODE": "${ROBOT_CODE}",
+        "ROBOT_ACCESS_TOKEN": "${ROBOT_ACCESS_TOKEN}",
+        "DINGTALK_AGENT_ID": "${DINGTALK_AGENT_ID}"
+      },
+      "variables": [
+        {
+          "key": "ROBOT_CODE",
+          "name": "ROBOT_CODE",
+          "description": "ROBOT_CODE",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ROBOT_ACCESS_TOKEN",
+          "name": "ROBOT_ACCESS_TOKEN",
+          "description": "ROBOT_ACCESS_TOKEN",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "DINGTALK_AGENT_ID",
+          "name": "DINGTALK_AGENT_ID",
+          "description": "DINGTALK_AGENT_ID",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:35.581Z",
+      "source_hash": "79306af8591be28049b245c2132d710011fd9094af125bb3b9491ca83837b25b"
+    },
+    {
+      "id": "larksuite-lark-openapi-mcp",
+      "path": "larksuite-lark-openapi-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Feishu/Lark OpenAPI MCP",
+      "description": "Feishu/Lark OpenAPI MCP",
+      "author": "larksuite",
+      "icon": "https://github.com/larksuite.png",
+      "homepage": "https://github.com/larksuite/lark-openapi-mcp",
+      "tags": [
+        "通信协作",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@larksuiteoapi/lark-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:35.959Z",
+      "source_hash": "66eba727d8628d84b157455208a695c27d522edf756768ccd350faa57ecf484b"
+    },
+    {
+      "id": "antvis-mcp-server-antv",
+      "path": "antvis-mcp-server-antv.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "AntV Docs MCP",
+      "description": "MCP Server for AntV visualization libraries development, which provides documentation context and examples for visualization developers.",
+      "author": "antvis",
+      "icon": "https://github.com/antvis.png",
+      "homepage": "https://github.com/antvis/mcp-server-antv#readme",
+      "tags": [
+        "开发工具",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@antv/mcp-server-antv"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:36.306Z",
+      "source_hash": "fac4dcd6a6e3084988a595a49c93595539462da3b50be2caa6688cc37a7b4a2f"
+    },
+    {
+      "id": "tencentcloud-sdk-mcp",
+      "path": "tencentcloud-sdk-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Tencent Cloud SDK MCP",
+      "description": "Tencent Cloud MCP Server for SDK",
+      "author": "tencentcloud",
+      "icon": "https://github.com/tencentcloud.png",
+      "homepage": "xx",
+      "tags": [
+        "云服务",
+        "开发工具",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@tencentcloud/sdk-mcp"
+      ],
+      "env": {
+        "TENCENTCLOUD_SECRET_ID": "${TENCENTCLOUD_SECRET_ID}",
+        "TENCENTCLOUD_SECRET_KEY": "${TENCENTCLOUD_SECRET_KEY}",
+        "TENCENTCLOUD_REGION": "${TENCENTCLOUD_REGION}"
+      },
+      "variables": [
+        {
+          "key": "TENCENTCLOUD_SECRET_ID",
+          "name": "TENCENTCLOUD_SECRET_ID",
+          "description": "TENCENTCLOUD_SECRET_ID",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "TENCENTCLOUD_SECRET_KEY",
+          "name": "TENCENTCLOUD_SECRET_KEY",
+          "description": "TENCENTCLOUD_SECRET_KEY",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "TENCENTCLOUD_REGION",
+          "name": "TENCENTCLOUD_REGION",
+          "description": "TENCENTCLOUD_REGION",
+          "type": "string",
+          "required": false,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:36.754Z",
+      "source_hash": "6fe6ff82817685a3b30b46188986d62b29ecf1083765b2eb8b8f22991f0a8457"
+    },
+    {
+      "id": "johnson1662-huawei-docs-mcp",
+      "path": "johnson1662-huawei-docs-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Huawei Docs MCP",
+      "description": "华为 HarmonyOS 开发文档 CLI & MCP Server — 一行命令搜索、获取华为开发者文档，无需克隆仓库",
+      "author": "Johnson1662",
+      "icon": "https://github.com/Johnson1662.png",
+      "homepage": "https://github.com/Johnson1662/huawei-docs-mcp#readme",
+      "tags": [
+        "搜索检索",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "search",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "huawei-docs-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:36.917Z",
+      "source_hash": "8a2b001fb39ad4489718ba74ad1d9f30687d1ba39002317e737f02c9a17d73bd"
+    },
+    {
+      "id": "eilgnaw-harmonyos-mcp",
+      "path": "eilgnaw-harmonyos-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "HarmonyOS MCP",
+      "description": "MCP server for HarmonyOS development: build, install, launch, UI automation against emulators via hdc / hvigorw / Emulator.",
+      "author": "Eilgnaw",
+      "icon": "https://github.com/Eilgnaw.png",
+      "homepage": "https://github.com/Eilgnaw/harmonyos-mcp#readme",
+      "tags": [
+        "开发工具",
+        "研发提效",
+        "实用工具"
+      ],
+      "category": "dev_tools",
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "harmonyos-mcp"
+      ],
+      "env": {
+        "DEVECO_STUDIO_HOME": "${DEVECO_STUDIO_HOME}",
+        "DEVECO_SDK_HOME": "${DEVECO_SDK_HOME}"
+      },
+      "variables": [
+        {
+          "key": "DEVECO_STUDIO_HOME",
+          "name": "DEVECO_STUDIO_HOME",
+          "description": "DEVECO_STUDIO_HOME",
+          "type": "path",
+          "required": false,
+          "default": ""
+        },
+        {
+          "key": "DEVECO_SDK_HOME",
+          "name": "DEVECO_SDK_HOME",
+          "description": "DEVECO_SDK_HOME",
+          "type": "path",
+          "required": false,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:37.085Z",
+      "source_hash": "14e600648aaaa5678b523ab60add4efebcc9f9d7984007195481cb190b53dd23"
+    },
+    {
+      "id": "aliyun-alibabacloud-dataworks-mcp-server",
+      "path": "aliyun-alibabacloud-dataworks-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Alibaba Cloud DataWorks MCP",
+      "description": "DataWorks MCP Server: Export the DataWorks Open API to MCP Server, allowing clients that can run MCP Server to use DataWorks Open API through AI.",
+      "author": "aliyun",
+      "icon": "https://github.com/aliyun.png",
+      "homepage": "https://github.com/aliyun/alibabacloud-dataworks-mcp-server.git",
+      "tags": [
+        "云服务",
+        "数据访问",
+        "研发提效"
+      ],
+      "category": "utility",
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "alibabacloud-dataworks-mcp-server"
+      ],
+      "env": {
+        "ALIBABA_CLOUD_ACCESS_KEY_ID": "${ALIBABA_CLOUD_ACCESS_KEY_ID}",
+        "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "${ALIBABA_CLOUD_ACCESS_KEY_SECRET}",
+        "REGION": "${REGION}"
+      },
+      "variables": [
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "description": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "description": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "REGION",
+          "name": "REGION",
+          "description": "REGION",
+          "type": "string",
+          "required": false,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:37.334Z",
+      "source_hash": "b8b729d761b13d9981bf44df683305c82dc97d267fc6603635b8dcc70b8f4ceb"
+    },
+    {
+      "id": "alibabacloud-direct-mail-mcp",
+      "path": "alibabacloud-direct-mail-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "Alibaba Cloud Direct Mail MCP",
+      "description": "Local MCP server for Alibaba Cloud Direct Mail lookup plus guarded resource creation, direct email, and batch send task flows.",
+      "author": "alibabacloud",
+      "icon": "https://github.com/alibabacloud.png",
+      "homepage": "git@gitlab.alibaba-inc.com:alimail-frontend/dm-mcp.git",
+      "tags": [
+        "通信协作",
+        "通信消息",
+        "云服务"
+      ],
+      "category": "communication",
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "alibabacloud-direct-mail-mcp"
+      ],
+      "env": {
+        "ALIBABA_CLOUD_ACCESS_KEY_ID": "${ALIBABA_CLOUD_ACCESS_KEY_ID}",
+        "ALIBABA_CLOUD_ACCESS_KEY_SECRET": "${ALIBABA_CLOUD_ACCESS_KEY_SECRET}",
+        "ALIYUN_DM_REGION_ID": "${ALIYUN_DM_REGION_ID}"
+      },
+      "variables": [
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "description": "ALIBABA_CLOUD_ACCESS_KEY_ID",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "name": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "description": "ALIBABA_CLOUD_ACCESS_KEY_SECRET",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "ALIYUN_DM_REGION_ID",
+          "name": "ALIYUN_DM_REGION_ID",
+          "description": "ALIYUN_DM_REGION_ID",
+          "type": "string",
+          "required": false,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:37.597Z",
+      "source_hash": "cd7c121afcb5bcb59b98959e8391f088ec9250421787e3eed9c6a7433cc8a6f9"
+    },
+    {
+      "id": "oceanbase-obcloud-mcp-server",
+      "path": "oceanbase-obcloud-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "OceanBase Cloud MCP",
+      "description": "MCP Cloud for OBCloud",
+      "author": "oceanbase",
+      "icon": "https://github.com/oceanbase.png",
+      "homepage": "git@code.alipay.com:oceanbase/mcp-server-oceanbase.git",
+      "tags": [
+        "数据库",
+        "数据访问",
+        "云服务"
+      ],
+      "category": "database",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@oceanbase/obcloud-mcp-server"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:37.883Z",
+      "source_hash": "5ad29708101b98521f1c0ab3f14638ba76fb469a34d68fa7b9b0d6a3fc78bccd"
+    },
+    {
+      "id": "easy-mcps-oceanbase-mcp-server",
+      "path": "easy-mcps-oceanbase-mcp-server.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "OceanBase MCP Server",
+      "description": "OceanBase MCP Server - 统一权限控制",
+      "author": "easy-mcps",
+      "icon": "https://github.com/easy-mcps.png",
+      "homepage": "https://www.npmjs.com/package/@easy-mcps/oceanbase-mcp-server",
+      "tags": [
+        "数据库",
+        "数据访问",
+        "研发提效"
+      ],
+      "category": "database",
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@easy-mcps/oceanbase-mcp-server"
+      ],
+      "env": {
+        "OCEANBASE_HOST": "${OCEANBASE_HOST}",
+        "OCEANBASE_PORT": "${OCEANBASE_PORT}",
+        "OCEANBASE_USER": "${OCEANBASE_USER}",
+        "OCEANBASE_PASSWORD": "${OCEANBASE_PASSWORD}",
+        "OCEANBASE_DATABASE": "${OCEANBASE_DATABASE}"
+      },
+      "variables": [
+        {
+          "key": "OCEANBASE_HOST",
+          "name": "OCEANBASE_HOST",
+          "description": "OCEANBASE_HOST",
+          "type": "url",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "OCEANBASE_PORT",
+          "name": "OCEANBASE_PORT",
+          "description": "OCEANBASE_PORT",
+          "type": "number",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "OCEANBASE_USER",
+          "name": "OCEANBASE_USER",
+          "description": "OCEANBASE_USER",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "OCEANBASE_PASSWORD",
+          "name": "OCEANBASE_PASSWORD",
+          "description": "OCEANBASE_PASSWORD",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "OCEANBASE_DATABASE",
+          "name": "OCEANBASE_DATABASE",
+          "description": "OCEANBASE_DATABASE",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:38.165Z",
+      "source_hash": "5a182ba9432a011e405484537260a9fac61dca8536cfb2ef811948a7a9adc232"
+    },
+    {
+      "id": "qwang007-wecom-mcp",
+      "path": "qwang007-wecom-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "WeCom MCP",
+      "description": "WeCom (企业微信) MCP server — exposes Contact, Approval, Drive, and Doc/Smartsheet/Form modules as Model Context Protocol tools and resources for use with Claude Desktop / Claude Code.",
+      "author": "qwang007",
+      "icon": "https://github.com/qwang007.png",
+      "homepage": "https://www.npmjs.com/package/@qwang007/wecom-mcp",
+      "tags": [
+        "通信协作",
+        "文档处理",
+        "通信消息"
+      ],
+      "category": "communication",
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@qwang007/wecom-mcp"
+      ],
+      "env": {
+        "WECOM_CORP_ID": "${WECOM_CORP_ID}",
+        "WECOM_CORP_SECRET": "${WECOM_CORP_SECRET}",
+        "WECOM_ADMIN_USERID": "${WECOM_ADMIN_USERID}"
+      },
+      "variables": [
+        {
+          "key": "WECOM_CORP_ID",
+          "name": "WECOM_CORP_ID",
+          "description": "WECOM_CORP_ID",
+          "type": "string",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "WECOM_CORP_SECRET",
+          "name": "WECOM_CORP_SECRET",
+          "description": "WECOM_CORP_SECRET",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        },
+        {
+          "key": "WECOM_ADMIN_USERID",
+          "name": "WECOM_ADMIN_USERID",
+          "description": "WECOM_ADMIN_USERID",
+          "type": "string",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:38.452Z",
+      "source_hash": "58c55057f38ea378cdd7d57fd9292cc909c4c8c22c33d912ba241be6c2bdb7ba"
+    },
+    {
+      "id": "framex-framex-feishu",
+      "path": "framex-framex-feishu.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "FrameX Feishu MCP",
+      "description": "FrameX Feishu MCP - 飞书 MCP 服务 (50+工具)。消息/群聊/文档/云盘/通讯录/日历/多维表格/任务/电子表格/知识库/视频会议/审批/翻译/妙记，零依赖",
+      "author": "framex",
+      "icon": "https://github.com/framex.png",
+      "homepage": "https://github.com/framex/framex-feishu#readme",
+      "tags": [
+        "通信协作",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "framex-feishu"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:38.698Z",
+      "source_hash": "bfd24a38caf32a566c622897e7ca8d18c2b2bba7f3909177ca4d7e9393e849c1"
+    },
+    {
+      "id": "sputnicyoji-dingtalk-workspace",
+      "path": "sputnicyoji-dingtalk-workspace.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "DingTalk Workspace MCP",
+      "description": "dws-driven, dynamic, full-coverage DingTalk MCP server. Host-agnostic. Auto-syncs with dws upgrades, zero maintenance.",
+      "author": "sputnicyoji",
+      "icon": "https://github.com/sputnicyoji.png",
+      "homepage": "https://github.com/sputnicyoji/dingtalk-workspace#readme",
+      "tags": [
+        "通信协作",
+        "文档处理",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@sputnicyoji/dingtalk-workspace-mcp"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:39.140Z",
+      "source_hash": "16e76f6de8c591256b3796f922560914f6002e6f4b3ec9bf673c875e5c232fd4"
+    },
+    {
+      "id": "hykfft-mcp-dingtalk-doc",
+      "path": "hykfft-mcp-dingtalk-doc.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "DingTalk Docs MCP",
+      "description": "钉钉文档解析 MCP 服务器 - Node.js/TypeScript 实现，支持智能 Cookie 管理和自动登录",
+      "author": "hykfft",
+      "icon": "https://github.com/hykfft.png",
+      "homepage": "https://github.com/hykfft/mcp-dingtalk-doc#readme",
+      "tags": [
+        "文档处理",
+        "通信协作",
+        "研发提效"
+      ],
+      "category": "filesystem",
+      "setup_mode": "requires_config",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-dingtalk-doc"
+      ],
+      "env": {
+        "DINGTALK_COOKIE": "${DINGTALK_COOKIE}"
+      },
+      "variables": [
+        {
+          "key": "DINGTALK_COOKIE",
+          "name": "DINGTALK_COOKIE",
+          "description": "DINGTALK_COOKIE",
+          "type": "secret",
+          "required": true,
+          "default": ""
+        }
+      ],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:39.367Z",
+      "source_hash": "f23a68f0f98de3132e5b323c990226f69f10f1f7a759d774a53448187194af4c"
+    },
+    {
+      "id": "archiesun-dingtalk-mcp",
+      "path": "archiesun-dingtalk-mcp.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "DingTalk Calendar MCP",
+      "description": "钉钉日程管理MCP服务器 - 日程创建、修改、删除、参与者管理",
+      "author": "archiesun",
+      "icon": "https://github.com/archiesun.png",
+      "homepage": "https://open.dingtalk.com/document/ai-dev/dingtalk-server-api-mcp-overview",
+      "tags": [
+        "通信协作",
+        "实用工具",
+        "研发提效"
+      ],
+      "category": "communication",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@archiesun/dingtalk-mcp-calendar"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:39.834Z",
+      "source_hash": "37cfec74d44d9695f046fa39d2b279cc8cc46e198190a00132a14c93bde25280"
+    },
+    {
+      "id": "archiesun-dingtalk-mcp-2",
+      "path": "archiesun-dingtalk-mcp-2.json",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "DingTalk Data Table MCP",
+      "description": "钉钉数据管理MCP服务器 - AI表格/多维表管理、记录管理、字段管理",
+      "author": "archiesun",
+      "icon": "https://github.com/archiesun.png",
+      "homepage": "https://open.dingtalk.com/document/ai-dev/dingtalk-server-api-mcp-overview",
+      "tags": [
+        "数据库",
+        "通信协作",
+        "数据访问"
+      ],
+      "category": "database",
+      "setup_mode": "manual",
+      "builtin": false,
+      "transport_type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@archiesun/dingtalk-mcp-data-table"
+      ],
+      "env": {},
+      "variables": [],
+      "requirements": {
+        "platforms": [
+          "win32",
+          "darwin",
+          "linux"
+        ],
+        "runtimes": [
+          "node"
+        ]
+      },
+      "permissions": {
+        "network": true
+      },
+      "file_size": 0,
+      "updated_at": "2026-05-27T10:05:40.168Z",
+      "source_hash": "e63c3f18489290d5c8a4c572b9d9ddbefa45941c588b22caf6bd7b451f80013c"
+    }
+  ]
+}

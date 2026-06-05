@@ -1,0 +1,154 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-04-01T06:16:03.418Z",
+  "total": 2,
+  "teams": [
+    {
+      "id": "ppt-team",
+      "path": "ppt-team.yaml",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "专业PPT制作团队",
+      "description": "基于专家工作流的专业PPT制作团队。模拟真实PPT制作公司的分工协作：项目总监协调、架构师调研、策划师规划、设计师执行。",
+      "author": "",
+      "icon": "👥",
+      "tags": [],
+      "member_count": 4,
+      "members": [
+        {
+          "role": "项目总监",
+          "description": "核心职责\n接收用户需求，判断任务复杂度（简单任务直接生成，复杂任务启动团队协作）；\n协调架构师、策划师、设计师的工作流程；\n汇总各阶段成果（JSON大纲 → 策划稿 → SVG页面），生成最终PPTX文件。\n\n必备能力\n需求分析能力，能快速判断任务复杂度；\n项目协调能力，能有效分配任务和管理进度；\nPPT制作全流程理解，熟悉从需求调研到最终输出的每个环节；\n质量把控能力，确保最终交付物达到专业标准。",
+          "agent": "ppt-lead",
+          "system_prompt": null,
+          "model": "claude-sonnet-4-6",
+          "skills": [
+            "ai-ppt"
+          ],
+          "tools": []
+        },
+        {
+          "role": "结构架构师",
+          "description": "核心职责\n通过提问确认受众、目的、时长、风格偏好等关键信息；\n使用AI检索最新资料（jimu_web_search、jimu_web_fetch）；\n基于金字塔原理（结论先行、以上统下、归类分组、逻辑递进）生成JSON结构化大纲；\n运用金字塔原理构建清晰的演示逻辑。\n\n必备能力\n需求调研能力，善于通过追问确认用户真实需求；\n信息检索能力，能快速获取最新、最准确的相关资料；\n结构化思维能力，能将复杂内容梳理为清晰的逻辑框架；\n文案提炼能力，将大量资料提炼为精炼的大纲要点。",
+          "agent": "ppt-architect",
+          "system_prompt": null,
+          "model": "MiniMax-M2.5-highspeed",
+          "skills": [
+            "ai-ppt"
+          ],
+          "tools": []
+        },
+        {
+          "role": "策划师",
+          "description": "核心职责\n基于JSON大纲填充详细内容（每页内容细化、数据支撑）；\n为每页选择合适的Bento Grid布局类型（7种布局可选）；\n输出详细的策划稿JSON（含内容、布局、设计提示）；\n与架构师确认内容准确性，与设计师沟通布局细节。\n\n必备能力\n内容策划能力，能将大纲要点展开为详细的页面内容；\n布局规划能力，能根据内容特点选择最合适的Bento Grid布局；\n格式规范能力，能输出结构化的策划稿JSON；\n视觉敏感度，能提供有价值的设计提示供设计师参考。",
+          "agent": "ppt-planner",
+          "system_prompt": null,
+          "model": "MiniMax-M2.5-highspeed",
+          "skills": [
+            "ai-ppt"
+          ],
+          "tools": []
+        },
+        {
+          "role": "设计师",
+          "description": "核心职责\n根据策划稿设计整体视觉风格（配色、字体、间距）；\n使用Bento Grid布局系统生成卡片位置（bento-layouts.js）；\n生成可导入PowerPoint的SVG页面（svg-generator.js）；\n确保全篇视觉一致性，输出风格统一的SVG文件集合。\n\n必备能力\n视觉设计能力，能定义专业、美观的视觉风格；\n布局实现能力，能将Bento Grid布局精确转换为代码；\nSVG生成能力，能输出符合规范的SVG文件；\n风格把控能力，能确保全篇视觉统一不混乱。",
+          "agent": "ppt-designer",
+          "system_prompt": null,
+          "model": "claude-sonnet-4-5-20250929",
+          "skills": [
+            "ai-ppt"
+          ],
+          "tools": []
+        }
+      ],
+      "depends_on_agents": [
+        "ppt-lead",
+        "ppt-architect",
+        "ppt-planner",
+        "ppt-designer"
+      ],
+      "depends_on_skills": [
+        "ai-ppt"
+      ],
+      "file_size": 3306,
+      "updated_at": "2026-04-01T03:59:07.215Z",
+      "source_hash": "0dcf2141ff2e139ec1408a5dcdd9055eb4c6a5ef8d02003b7bf773e244f61e65"
+    },
+    {
+      "id": "team",
+      "path": "team.yaml",
+      "version": "1.0.0",
+      "enabled": true,
+      "display_name": "开发团队",
+      "description": "一个完整的应用开发团队，涵盖项目管理、UI 设计、前端开发、后端开发、测试和运维六大角色，下载后可直接使用。",
+      "author": "积木",
+      "icon": "👥",
+      "tags": [
+        "官方",
+        "开发",
+        "完整团队"
+      ],
+      "member_count": 6,
+      "members": [
+        {
+          "role": "项目经理",
+          "description": "负责制定研发计划、协调团队、监控进度、管控风险，推动项目按时交付。",
+          "agent": null,
+          "system_prompt": null,
+          "model": null,
+          "skills": [],
+          "tools": []
+        },
+        {
+          "role": "UI/UX 设计师",
+          "description": "负责产品视觉界面设计、设计规范制定、设计稿输出，保证全产品视觉统一。",
+          "agent": null,
+          "system_prompt": null,
+          "model": null,
+          "skills": [],
+          "tools": []
+        },
+        {
+          "role": "前端开发工程师",
+          "description": "负责 PC 端和移动端前端界面开发、API 对接、性能优化和代码规范制定。",
+          "agent": null,
+          "system_prompt": null,
+          "model": null,
+          "skills": [],
+          "tools": []
+        },
+        {
+          "role": "后端开发工程师",
+          "description": "负责后端架构设计、API 开发、数据库优化、第三方服务集成和代码维护。",
+          "agent": null,
+          "system_prompt": null,
+          "model": null,
+          "skills": [],
+          "tools": []
+        },
+        {
+          "role": "测试工程师",
+          "description": "负责测试方案设计、功能测试和性能测试执行、瓶颈定位和优化建议输出。",
+          "agent": null,
+          "system_prompt": null,
+          "model": null,
+          "skills": [],
+          "tools": []
+        },
+        {
+          "role": "DevOps 工程师",
+          "description": "负责 CI/CD 流水线搭建、容器化部署、自动化运维和研发效能提升。",
+          "agent": null,
+          "system_prompt": null,
+          "model": null,
+          "skills": [],
+          "tools": []
+        }
+      ],
+      "depends_on_agents": [],
+      "depends_on_skills": [],
+      "file_size": 4600,
+      "updated_at": "2026-03-30T05:58:44.565Z",
+      "source_hash": "9e10aab8e1863c82321492757f1e927c6cec44fbfb52ef1fdf7e8c049123daee"
+    }
+  ]
+}

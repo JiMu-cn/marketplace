@@ -1,0 +1,13 @@
+{
+  "chatmcp-mcp-server-flomo": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@chatmcp/mcp-server-flomo"
+    ],
+    "env": {
+      "FLOMO_API_URL": "${FLOMO_API_URL}"
+    }
+  }
+}

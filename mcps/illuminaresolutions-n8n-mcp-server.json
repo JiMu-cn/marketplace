@@ -1,0 +1,14 @@
+{
+  "illuminaresolutions-n8n-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@illuminaresolutions/n8n-mcp-server"
+    ],
+    "env": {
+      "N8N_HOST": "${N8N_HOST}",
+      "N8N_API_KEY": "${N8N_API_KEY}"
+    }
+  }
+}

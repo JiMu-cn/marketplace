@@ -1,0 +1,15 @@
+{
+  "jsonresume-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@jsonresume/mcp"
+    ],
+    "env": {
+      "GITHUB_TOKEN": "${GITHUB_TOKEN}",
+      "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+      "GITHUB_USERNAME": "${GITHUB_USERNAME}"
+    }
+  }
+}

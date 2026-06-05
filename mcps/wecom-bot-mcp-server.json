@@ -1,0 +1,10 @@
+{
+  "wecom-bot-mcp-server": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "wecom-bot-mcp-server"
+    ],
+    "env": {}
+  }
+}

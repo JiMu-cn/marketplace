@@ -1,0 +1,13 @@
+{
+  "kajirita2002-honeycomb-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kajirita2002/honeycomb-mcp-server"
+    ],
+    "env": {
+      "HONEYCOMB_API_KEY": "${HONEYCOMB_API_KEY}"
+    }
+  }
+}

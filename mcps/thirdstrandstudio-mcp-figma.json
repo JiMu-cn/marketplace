@@ -1,0 +1,13 @@
+{
+  "thirdstrandstudio-mcp-figma": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@jayarrowz/mcp-figma"
+    ],
+    "env": {
+      "FIGMA_API_KEY": "${FIGMA_API_KEY}"
+    }
+  }
+}

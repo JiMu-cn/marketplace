@@ -1,0 +1,14 @@
+{
+  "cloudwerx-dev-gpt-image-1-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@cloudwerxlab/gpt-image-1-mcp"
+    ],
+    "env": {
+      "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+      "GPT_IMAGE_OUTPUT_DIR": "${GPT_IMAGE_OUTPUT_DIR}"
+    }
+  }
+}

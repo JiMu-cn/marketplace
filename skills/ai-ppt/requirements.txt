@@ -1,0 +1,9 @@
+# 图表生成（chart_style.py / generate_charts.py）
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# PPTX 工具脚本（inventory.py / replace.py / rearrange.py / thumbnail.py）
+python-pptx>=0.6.21
+pillow>=9.0.0
+markitdown>=0.1.0
+defusedxml>=0.7.0

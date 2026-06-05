@@ -1,0 +1,15 @@
+{
+  "open-dingtalk-dingtalk-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "dingtalk-mcp"
+    ],
+    "env": {
+      "ROBOT_CODE": "${ROBOT_CODE}",
+      "ROBOT_ACCESS_TOKEN": "${ROBOT_ACCESS_TOKEN}",
+      "DINGTALK_AGENT_ID": "${DINGTALK_AGENT_ID}"
+    }
+  }
+}

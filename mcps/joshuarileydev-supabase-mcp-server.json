@@ -1,0 +1,13 @@
+{
+  "joshuarileydev-supabase-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@joshuarileydev/supabase-mcp-server"
+    ],
+    "env": {
+      "SUPABASE_API_KEY": "${SUPABASE_API_KEY}"
+    }
+  }
+}

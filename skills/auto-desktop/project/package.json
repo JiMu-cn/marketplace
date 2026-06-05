@@ -1,0 +1,28 @@
+{
+  "name": "ui-tars-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lightweight UI-TARS Desktop Agent CLI for AI skill invocation",
+  "bin": {
+    "ui-tars-agent": "./bin/ui-tars-agent.js"
+  },
+  "dependencies": {
+    "@computer-use/nut-js": "^4.2.0",
+    "@ui-tars/action-parser": "file:./packages/action-parser",
+    "@ui-tars/operator-nut-js": "file:./packages/operator-nut-js",
+    "@ui-tars/sdk": "file:./packages/sdk",
+    "@ui-tars/shared": "file:./packages/shared",
+    "async-retry": "1.3.3",
+    "big.js": "^6.2.2",
+    "commander": "^13.1.0",
+    "electron": "34.1.1",
+    "jimp": "1.6.0",
+    "lodash.isnumber": "^3.0.3",
+    "node-fetch": "^2.7.0",
+    "openai": "^5.5.1",
+    "uuid": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=20.x"
+  }
+}

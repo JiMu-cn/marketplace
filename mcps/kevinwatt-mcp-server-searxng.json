@@ -1,0 +1,15 @@
+{
+  "kevinwatt-mcp-server-searxng": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@kevinwatt/mcp-server-searxng"
+    ],
+    "env": {
+      "SEARXNG_INSTANCES": "${SEARXNG_INSTANCES}",
+      "SEARXNG_USER_AGENT": "${SEARXNG_USER_AGENT}",
+      "NODE_TLS_REJECT_UNAUTHORIZED": "${NODE_TLS_REJECT_UNAUTHORIZED}"
+    }
+  }
+}

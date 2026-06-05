@@ -1,0 +1,10 @@
+{
+  "kuaidi100-api-kuaidi100-mcp": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "kuaidi100-mcp"
+    ],
+    "env": {}
+  }
+}

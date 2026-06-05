@@ -1,0 +1,16 @@
+{
+  "tsmztech-mcp-server-salesforce": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@tsmztech/mcp-server-salesforce"
+    ],
+    "env": {
+      "SALESFORCE_CONNECTION_TYPE": "${SALESFORCE_CONNECTION_TYPE}",
+      "SALESFORCE_CLIENT_ID": "${SALESFORCE_CLIENT_ID}",
+      "SALESFORCE_CLIENT_SECRET": "${SALESFORCE_CLIENT_SECRET}",
+      "SALESFORCE_INSTANCE_URL": "${SALESFORCE_INSTANCE_URL}"
+    }
+  }
+}

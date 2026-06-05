@@ -1,0 +1,14 @@
+{
+  "apitable-aitable-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@apitable/aitable-mcp-server"
+    ],
+    "env": {
+      "AITABLE_API_KEY": "${AITABLE_API_KEY}",
+      "AITABLE_BASE_URL": "${AITABLE_BASE_URL}"
+    }
+  }
+}

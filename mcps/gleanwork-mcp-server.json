@@ -1,0 +1,14 @@
+{
+  "gleanwork-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@gleanwork/mcp-server"
+    ],
+    "env": {
+      "GLEAN_INSTANCE": "<glean instance name>",
+      "GLEAN_API_TOKEN": "<glean api token>"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "alibabacloud-fc-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "alibabacloud-fc-mcp-server"
+    ],
+    "env": {}
+  }
+}

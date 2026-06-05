@@ -1,0 +1,10 @@
+{
+  "mcp-excel-server": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "mcp-excel-server"
+    ],
+    "env": {}
+  }
+}

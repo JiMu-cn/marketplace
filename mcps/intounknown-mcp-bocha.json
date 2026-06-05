@@ -1,0 +1,13 @@
+{
+  "intounknown-mcp-bocha": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@humansean/mcp-bocha"
+    ],
+    "env": {
+      "BOCHA_API_KEY": "${BOCHA_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "wangshunnn-bilibili-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@wangshunnn/bilibili-mcp-server"
+    ],
+    "env": {}
+  }
+}

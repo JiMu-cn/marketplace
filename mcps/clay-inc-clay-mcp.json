@@ -1,0 +1,13 @@
+{
+  "clay-inc-clay-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@clayhq/clay-mcp"
+    ],
+    "env": {
+      "CLAY_API_KEY": "${CLAY_API_KEY}"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "jackdark425-aigroup-aliyunoss-mcp": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "aigroup-aliyunoss-mcp"
+    ],
+    "env": {}
+  }
+}

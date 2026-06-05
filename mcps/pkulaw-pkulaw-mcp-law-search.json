@@ -1,0 +1,10 @@
+{
+  "pkulaw-pkulaw-mcp-law-search": {
+    "type": "stdio",
+    "command": "uvx",
+    "args": [
+      "pkulaw-mcp-law-search"
+    ],
+    "env": {}
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mem0-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@mem0/mcp-server"
+    ],
+    "env": {
+      "MEM0_API_KEY": "YOUR-API-KEY-HERE"
+    }
+  }
+}

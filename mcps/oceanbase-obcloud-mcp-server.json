@@ -1,0 +1,11 @@
+{
+  "oceanbase-obcloud-mcp-server": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@oceanbase/obcloud-mcp-server"
+    ],
+    "env": {}
+  }
+}
