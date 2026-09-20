@@ -62,3 +62,9 @@ git push
 ## 贡献
 
 详见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+
+## 🏢 关于我们
+
+- 官网：[积木科技](https://jimu.chat)
+- GitHub：[@JiMu-cn](https://github.com/JiMu-cn)
